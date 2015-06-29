@@ -165,6 +165,7 @@ public class TrieAlt
 		return sb.reverse().toString(); 
 	}
 	
+	
 	private Object[] computeArray(Node par, Node child, String query)
 	{
 		int[] parLcs = par.getLcsRow(); 
