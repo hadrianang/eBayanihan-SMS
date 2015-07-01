@@ -93,7 +93,6 @@ Hadrian Ang\titlenote{description}\\
        \email{miguel.palma@obf.ateneo.edu}
 	}	
 
-}
 
 % There's nothing stopping you putting the seventh, eighth, etc.
 % author on the opening page (as the 'third row') but we ask,
@@ -151,10 +150,7 @@ enter figure of SMS to eBayanihan
 
 \subsection{Problems}
 
-To send an SMS report to eBayanihan, a specific format has to be followed so that it can 
-be parsed properly by the system. The SMS is then parsed for a keyword, urgency level, barangay,
-city or municipality and then the actual report. Location information is then extracted from the SMS
-and used to map the report. 
+To send an SMS report to eBayanihan, a specific format has to be followed so that it can be parsed properly by the system. The SMS is then parsed for a keyword, urgency level, barangay, city or municipality and then the actual report. Location information is then extracted from the SMS and used to map the report. 
 
 With this in mind, there are three problems that may occur with an SMS report.
 First, the SMS sent may not follow the proper format (there are extra or missing commas). Place example.
@@ -165,39 +161,57 @@ Third, the location extracted may not be geo-locatable, which may occur because 
 (Google Maps, Nominatim).
 
 \section{Proposed Solution}
-There are two possible approaches in solving the problem, namely by correction and approximation. I will explain futher here.
+There are two possible approaches in solving the problem, namely by correction and approximation. I will explain further here.
 
 \subsection{Correction}
-One possible approach to the problem of erroneous SMS reports is to attempt to correct them. A program first queries the database fro new SMS that have been deemed to be wrong. The format is checked and fixed if there are mistakes. Afterward, spelling correctors may be run based on a dictionary of keywords (for misspelled keywords) and a dictionary of all the barangays and cities in the Philippines (for misspelled places). After fixing these problems, a gazetteer may then be used to get latitude and longitude for the specified place. 
+One possible approach to the problem of erroneous SMS reports is to attempt to correct them. A program first queries the database for new SMS that have been deemed to be wrong. Instead of separating solutions to the first and second problems mentioned above, the group instead decided to solve both simultaneously with the algorithm proposed in ~\ref{trie}. Once the SMS report has been corrected for both spelling and formatting errors, it is once again passed through a regex check. If it passes, information is again extracted and sent via HTTP Post to the geolocation module of eBayanihan. 
 
-\subsubsection{Fixing the Format}
-\subsubsection{Approximate String Matching}
-One approach to the misspelled words problem is to find the closest string in the given dictionary and then
-replacing the string with that one. Afterward, this may then be passed on to the gazetteer query stage. Numerous
-string distance metrics allow this kind of approximate matching. Hamming distance, Levenshtein distance, Damerau-Levenshtein
-distance, Longest Common Subsequence and Longest Common Substring are just some examples of these distance metrics. 
+The group will first tackle the solution to the misspelled words problem and then explain how its approximate string matching solution can be adapted to solving the formatting problem at the same time. One approach to the misspelled words problem is to find the closest string in the given dictionary and then replacing the string with that one. Afterward, this may then be passed on to the gazetteer query stage. Numerous string similarity and distance metrics allow this kind of approximate matching. Hamming distance, Levenshtein distance, Damerau-Levenshtein distance, Longest Common Subsequence and Longest Common Substring are just some examples of these distance metrics. 
 
-Levenshtein distance, or edit distance, is a commonly used metric in approximate string matching and spelling correction. In Peter Norvig's trials, he claims that around 76\% of errors were within an edit distance of one and 98.9\% were within a distance of two \cite{norvig:howto}. It is defined as the minimum number of operations required to change one string into another. The operations defined are insertion (addition of an extra letter), deletion (removal of a character from the string), and substitution (replacing one character with another). Damerau-Levenshtein distance is an extension of this that keeps the three operations, but adds a fourth one, namely transposition
-or the flipping of adjacent characters.  
+Levenshtein distance, or edit distance, is a commonly used metric in approximate string matching and spelling correction. In Peter Norvig's trials, he claims that around 76\% of errors were within an edit distance of one and 98.9\% were within a distance of two \cite{norvig:howto}. It is defined as the minimum number of operations required to change one string into another. The operations defined are insertion (addition of an extra letter), deletion (removal of a character from the string), and substitution (replacing one character with another). Damerau-Levenshtein distance is an extension of this that keeps the three operations, but adds a fourth one, namely transposition or the flipping of adjacent characters. Damerau   
 
 Since there are only 15 keywords and 2 urgency levels, correcting errors given the dictionary is a simple task of selecting
 the word with the smallest edit distance when compared to a certain query. Since only a few comparisons are needed, a straightforward
-dynamic programming approach was taken using the given recurrence relation. 
+dynamic programming approach would actually work here. 
 
-<INSERT RECURRENCE RELATION HERE> 
+\begin{displaymath}
+	d_{ij} = \left\{
+		\begin{array}{lr}
+			d_{i-1,j-1} & for \ a_j = b_i\\
+			min \left\{
+				\begin{array}{lr}
+						d_{i-1,j} + cost_{del} (b_i)\\
+						d_{i,j-1} + cost_{ins} (a_j)\\
+						d_{i-1,j-1} + cost_{sub} (a_j, b_i)\\
+				\end{array}	\right. & for \ a_j \not = b_i\\
+		\end{array}
+		\right.
+\end{displaymath}
 
-While the same approach may be used for the names of places, the dictionary here is a lot larger. With over a thousand cities, 
-over a thousand municipalities and thousands of barangays, a straightforward comparison approach will be too slow (given the
-O(mn) run time of the dynamic programming approach). To solve this problem of efficiency, the group implemented two different tree-based solutions. The first is a hybrid of a trie and the dynamic programming approach, while the second is an implementation of a BK-Tree. 
+To simplify computations, the cost of all operations will be equally set to one. 
+
+While the same approach may be used for the names of places, the dictionary here is a lot larger. With over a thousand cities, over a thousand municipalities and thousands of barangays, a straightforward comparison approach will be too slow (given the O(mn) run time of the dynamic programming approach). To solve this problem of efficiency, the group implemented a solution that involves a trie and dynamic programming.
+
+Another problem arises though: what should the query string in approximate string matching be if the SMS is poorly formatted even to the extent that word boundaries (delimiters between words) and data boundaries (delimiters between fields such as keyword and urgency) are blurred? To solve this, the entire SMS is used as a query string and then a greedy approach that optimizes based on a scoring function decides when to extract tokens from the query. This is done iteratively until enough tokens have been extracted, as explained in the next subsection. 
 
 \subsubsection{Trie with Dynamic Programming}
+\label{trie}
 A trie is a tree data structure where nodes can contain different keys pertaining to parts of a word. In this algorithm's case, each node contains a character. By using a trie, redundant computations are prevented, as prefixes to the wide range of words in the dictionary will only have to be involved in the computations once. In other words, the memoization array used in the dynamic programming algorithm is recycled, and carried over to other words with the same prefix.
 
 <ADD PICTURE OF SAMPLE TRIE HERE> 
 
-Instead of simply using Levenshtein distance, the group instead opted to use the string optimal alignment distance function, which is a slightly restricted version of the Damerau-Levenshtein distance mentioned earlier. It also counts four operations instead of the three by the Levenshtein distance function, however, a single substring cannot be edited more than once. For example, the Damerau-Levenshtein distance of "`there"' and "`etre"' is two, as one can flip the first and second letters or "`etre"' and then insert an "`h"' in between. Its optimal string alignment distance, however, is three because after the initial transposition of the first two letters, one cannot insert another letter (the substring has already been edited). While more restrictive than Damerau-Levenshtein distance, this metric is sufficient for the purposes of the algorithm (approximate matching of wrongly spelled words). 
+Instead of simply using Levenshtein distance, the group instead opted to use the string optimal alignment distance function (sometimes known as restricted Damerau-Levenshtein distance). It also counts four operations instead of the three by the Levenshtein distance function, however, a single substring cannot be edited more than once. For example, the Damerau-Levenshtein distance of ``there'' and ``etr'' is two, as one can flip the first and second letters or ``etre'' and then insert an ``h'' in between. Its optimal string alignment distance , however, is three because after the initial transposition of the first two letters, one cannot insert another letter (the substring has already been edited). While more restrictive than Damerau-Levenshtein distance, this metric is sufficient for the purposes of the algorithm (approximate matching of wrongly spelled words). 
 
-\subsubsection{BK-Trees}
+The first step to the algorithm is the construction of the trie. Since the the list of cities, municipalities and barangays is not expected to change very often, a separate program builds the trie, then outputs it to a text file to be read whenever the main algorithm has to be run. This will save time once the program is uploaded to the server, as  the building of the trie is moved to the pre-processing stage.
+
+When the main processing program is run, it first reads the trie and reconstructs it from a given text file. Once the full trie has been constructed, processing may begin. Let $s_1 = \{c_1,c_2,c_3 . . . c_n\}$ be the entire SMS composed of $n$ characters where $c_i$ is the $i_{th}$ character of the string. The string $s_1$ is then used as a parameter to a $computeDP(x)$ function where the parameter $x$ is a designated query string. This function traverses through the entire trie in a DFS fashion, doing computations along the way. 
+ 
+Each node $k$ contains two memoization arrays $k.Lev[n]$ and $k.Lcs[n]$ where $n$ is the length of each array, equal to the length of the query string. These arrays hold the DP table for the corresponding operations according to the recurrence relations below. During this traversal, each node is processed. This processing involves setting its parent node, setting its depth, and then the computation of $Lev[0,1. . . n]$ and $Lcs[0,1. . . n]$ based on its parents. Each node normally contains a single character of some word in the given dictionary used to construct the trie. Let $name(k)$ refer to the character contained in node $k$ while $depth(k)$ is its depth in the trie and $parent(k)$ is its parent according to the DFS traversal. If $name(k) = \$$ then backtracking from $parent(k), parent(parent(k)) . . . root$, appending the names of nodes along the way, will result in a word that is in the dictionary (though in reverse). We let $word(k)$ be the resulting word if we were to backtrack from $k$ to the root of the trie. 
+
+Since any node $y$ such that $name(y) = \$$ denotes a word, then the $Lev$ and $Lcs$ arrays of $parent(y)$ will contain the edit distance and longest common subsequence of the query string $s_1$ along every point $\{c_1,c_2,c_3, . . . c_n\}$ when compared to $word(y)$. During the computation $max(k.Lcs[0,1,...,n])$ and $min(k.Lev[0,1,...,n])$ are stored and compared with a global maximum Lcs and minimum edit distance $\forall a : word(a) \in Dictionary$ 
+
+\subsection{Edge Cases} 
+
 
 \subsection{Approximations}
 Text mining is proposed approximation approach in solving the problem. In this approach, the syntax is almost disregarded as input string is tokenized and compared to a lookup table for matching. The difference in this approach is that there is a validation process that happens in every correct or incorrect match so there is a percentage increase or decrease in the matching or relevance score. 
