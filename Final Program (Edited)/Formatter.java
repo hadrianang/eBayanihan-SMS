@@ -11,7 +11,7 @@ public class Formatter
 			if(arr[i].equals(" ")) continue;
 			if(i!=0)
 			{
-				if(arr[i].equals("city") || not)
+				if(arr[i].equals("city") || not || i==1)
 				{
 					not = false;
 					sb.append(" ");

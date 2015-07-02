@@ -33,7 +33,7 @@ public class Version {
 			String toProcess = ""; 
             while(rs.next()) {
                 toProcess = rs.getString(3); 
-                System.out.println(rs.getString(1) + " " + rs.getString(2) + " " + rs.getString(3) + " " + rs.getString(4)); 
+                System.out.println(rs.getString(1) + "|" + rs.getString(2) + "|" + rs.getString(3) + "|" + rs.getString(4)+ "|" +rs.getString(5)); 
                 String[] arr = ws.wordBreak(toProcess,THRESHOLD); 
 				String corrected = form.format(arr); 
 				System.out.println("ARRAY: " + Arrays.toString(arr));

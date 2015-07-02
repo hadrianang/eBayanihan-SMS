@@ -43,9 +43,9 @@ public class WordSegmentation{
 
             Object[] res = trie.computeDP(quer.trim(),threshold);
 			edit = trie.backTrack(((Node)res[0]).getId()); 
-			index = (int)res[1] + 1;
+			index = (int)res[1]-1;
             if(index!=-1){
-                i = index-1;
+                i = index;
 				//prevCut = index;
 				//System.out.println(edit);
 				if(edit.equals(" ") || edit.equals("")) continue;
