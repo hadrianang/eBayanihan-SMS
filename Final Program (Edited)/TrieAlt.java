@@ -211,9 +211,9 @@ public class TrieAlt
 					maxLCS = lcs;
 					minEdit = lev;
 					maxScore = sc; 
-					index = i-1; 
+					index = i; 
 					cutPoint = child;
-					//System.out.println(query + " " + backTrack(child.getId()) + " " + backTrack(cutPoint.getId()) + " " + sc + " " + maxScore + " " + (i-1));
+					//System.out.println(query + " " + backTrack(child.getId()) + " " + backTrack(cutPoint.getId()) + " " + sc + " " + maxScore + " " + index);
 				}
 				
 			}

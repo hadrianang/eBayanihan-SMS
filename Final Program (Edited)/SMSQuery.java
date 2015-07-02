@@ -1,20 +1,22 @@
 import java.sql.*;
 import java.util.*;
 import java.net.*;
+import java.io.*;
 
 public class SMSQuery {
 
 	final static int THRESHOLD = 3;
 	final static String JDBC_DRIVER = "org.postgresql.Driver";
-	final static String DB_URL = "jdbc:postgresql://localhost:5432/";
+	final static String DB_URL = "jdbc:postgresql://staging.ebayanihan.ateneo.edu:5432/stg_ebayanihan";
 	final static String db_name = DB_URL + "stg_ebayanihan";
 	final static String user = "devuser0";
 	final static String pass = "devuser0";
-	// final static long interval = 15000;
+	static Connection conn1 = null;
+	static Statement stmt1 = null;
 
 	static WordSegmentation ws;
 	static Formatter form;
-	static ArrayDeque<SMSobject> messageQueue;
+	static ArrayDeque<Integer> messageQueue;
 
 	public static void main(String[] args)throws Exception {
 		try {
@@ -24,29 +26,19 @@ public class SMSQuery {
 		}
 		ws = new WordSegmentation(); 
 		form = new Formatter();
-		messageQueue = new ArrayDeque<SMSobject>();
-		//start threads
+		messageQueue = new ArrayDeque<Integer>();
+		
 		Thread t = new Thread(new QueryThread());
 		t.start();
-		// while(true){}
-		Connection conn1 = null;
-		Statement stmt1 = null;
 		
 		try{
 			conn1 = DriverManager.getConnection(db_name,user,pass);
 			stmt1 = conn1.createStatement();
 			while(true){
-				
 				while(messageQueue.size()>0){
-					System.out.println("INSIDE");
-					SMSobject sms = messageQueue.poll();
-					String toProcess = sms.message;
-					String message = getMessage(toProcess).toLowerCase(); 
-					String corrected = form.format(ws.wordBreak(message, THRESHOLD));
-					String mobile =getMobile(toProcess);
-					//if success
-					System.out.println("LOLOLOL "+corrected);
-					stmt1.executeUpdate("UPDATE rawsms SET is_processed = \'processed\' WHERE id = "+ sms.id +";");
+					int smsID = messageQueue.poll();
+					if(httpPost(smsID))
+						stmt1.executeUpdate("UPDATE receivedsms SET is_processed = \'processed\' WHERE id = "+ smsID +";");
 				}
 				Thread.sleep(1000);
 			}
@@ -89,19 +81,29 @@ public class SMSQuery {
 		return sb.toString();
 	}
 	
-	public static boolean httpPost(){
-		URL url = new URL("http://example.net/new-message.php");
+	public static boolean httpPost(int id) throws Exception{
+		URL url = new URL("http://staging.ebayanihan.ateneo.edu/smsreport");
+		ResultSet rs = stmt1.executeQuery("SELECT * FROM raw_sms_messages WHERE id = " + id +";");
         Map<String,Object> params = new LinkedHashMap<>();
-        params.put("receiveddate", "Freddie the Fish");
-        params.put("receivedtime", "Freddie the Fish");
-        params.put("received_at", "Freddie the Fish");
-        params.put("keyword", "Freddie the Fish");
-        params.put("urgency", "Freddie the Fish");
-        params.put("sendermobile", "Freddie the Fish");
-        params.put("location", "Freddie the Fish");
-        params.put("remarks", "Freddie the Fish");
-        params.put("source", "Freddie the Fish");
+        rs.next();
+        String message = form.format(ws.wordBreak(rs.getString(3).trim().toLowerCase(), THRESHOLD));
+        // System.out.println(Arrays.toString(ws.wordBreak(rs.getString(6).trim().toLowerCase(),THRESHOLD)));
+        // System.out.println("LOOOOOOOOOK: " + ws.wordBreak(rs.getString(6).trim(),3).length);
+		System.out.println(message);
+		String[] tokens = message.split(",");
+		// params.put("receiveddate", rs.getString(2));
+		// params.put("receivedtime", rs.getString(3));
+		params.put("received_at","");
+		params.put("keyword", tokens[1]);
+		params.put("urgency", tokens[2]);
+		params.put("sendermobile", rs.getString(2));
+		params.put("location", tokens[3] + " " + tokens[4]);
+		params.put("remarks", tokens[5]);
+		params.put("source","");
 
+        System.out.println(params.get("receiveddate") + " " + params.get("receivedtime") + " " + params.get("received_at"));
+        System.out.println(params.get("keyword") + " " + params.get("urgency") + " "+ params.get("sendermobile") + " " + params.get("location")); 
+        
         StringBuilder postData = new StringBuilder();
         for (Map.Entry<String,Object> param : params.entrySet()) {
             if (postData.length() != 0) postData.append('&');
@@ -118,8 +120,10 @@ public class SMSQuery {
         conn.setDoOutput(true);
         conn.getOutputStream().write(postDataBytes);
 
-        Reader in = new BufferedReader(new InputStreamReader(conn.getInputStream(), "UTF-8"));
+        BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream(), "UTF-8"));
         for ( int c = in.read(); c != -1; c = in.read() ) System.out.print((char)c);
+
+        return true; 
 	}
 	
 	static class QueryThread implements Runnable{
@@ -133,16 +137,18 @@ public class SMSQuery {
 				stmt = conn.createStatement();
 				while(true){
 					//System.out.println("HELLO");
-					String toProcess = "SELECT * FROM rawsms";
+					String toProcess = "SELECT * FROM receivedsms";
 					ResultSet rs = stmt.executeQuery(toProcess);
 					while(rs.next()) {
-						String status = rs.getString(4); 
+						String status = rs.getString(12);
 						if(status == null||status.equals("unprocessed")){
 							// System.out.println(rs.getString(1)+" "+rs.getString(2));
-							messageQueue.offer(new SMSobject(Integer.parseInt(rs.getString(1)),rs.getString(2)));						
+							// messageQueue.offer(new SMSobject(Integer.parseInt(rs.getString(1)),rs.getString(2)));
+							messageQueue.offer(Integer.parseInt(rs.getString(1)));						
 						}
 						else if(status.contains("processed")) continue;
 					}
+					System.out.println("Waiting for new rows");
 					Thread.sleep(15000);//15 secs sleep for now
 				}
 			}

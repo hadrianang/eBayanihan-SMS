@@ -6,6 +6,7 @@ import java.sql.Statement;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.net.URLDecoder;
+import java.util.*;
 public class Version {
 	final static int THRESHOLD = 3; 
     public static void main(String[] args)throws Exception {
@@ -17,9 +18,9 @@ public class Version {
 		
 
 		//real
-        //String url = "jdbc:postgresql://staging.ebayanihan.ateneo.edu:5432/stg_ebayanihan";
+        String url = "jdbc:postgresql://staging.ebayanihan.ateneo.edu:5432/stg_ebayanihan";
 		//local
-        String url = "jdbc:postgresql://localhost:5432/stg_ebayanihan";
+        //String url = "jdbc:postgresql://localhost:5432/stg_ebayanihan";
         String user = "devuser0";
         String password = "devuser0";
 		WordSegmentation ws = new WordSegmentation(); 
@@ -27,17 +28,19 @@ public class Version {
         try {
             con = DriverManager.getConnection(url, user, password);
             st = con.createStatement();
-            rs = st.executeQuery("SELECT * FROM rawsms");
+            rs = st.executeQuery("SELECT * FROM raw_sms_messages");
 			
 			String toProcess = ""; 
             while(rs.next()) {
-                toProcess = rs.getString(2); 
-				String message = getMessage(toProcess).toLowerCase(); 
-				String corrected = form.format(ws.wordBreak(message, THRESHOLD)); 
-				System.out.println(getMobile(toProcess) + corrected);
+                toProcess = rs.getString(3); 
+                System.out.println(rs.getString(1) + " " + rs.getString(2) + " " + rs.getString(3) + " " + rs.getString(4)); 
+                String[] arr = ws.wordBreak(toProcess,THRESHOLD); 
+				String corrected = form.format(arr); 
+				System.out.println("ARRAY: " + Arrays.toString(arr));
+				System.out.println("CORRECTED: " + corrected);
 				//System.out.println(getMessage(toProcess) + getMobile(toProcess));
 				
-				String status = rs.getString(4); 
+				//String status = rs.getString(3); 
             }
 			
 

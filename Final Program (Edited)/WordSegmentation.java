@@ -19,31 +19,43 @@ public class WordSegmentation{
 	
 	public static String[] wordBreak(String query, int threshold){
         ArrayList<String> list = new ArrayList<String>();
+       	
 		int i;
 		int tokCount=0; 
-		int prevCut = 0; 
+		//int prevCut = 0; 
         for(i=0; i<query.length(); i++){
 			if(tokCount==5)
 			{
-				list.add(query.substring(i));
+				if(query.charAt(i)==',') i++;
+				query = query.substring(i); 
+				list.add(query.trim());
 				break; 
 			}
-            double maxScore = -1;
+            //double maxScore = -1;
             int index = -1;
 			
             String edit = "";
-            Object[] res = trie.computeDP(query.substring(i),threshold);
-			
+            int temp = i; 
+            if(query.charAt(temp)==',') temp++;
+            String quer = query.substring(temp).trim(); 
+            //if(quer.charAt(0)==',') quer = quer.substring(1);
+			//System.out.println("QUERY LOOK: " + quer + " " + tokCount);
+
+            Object[] res = trie.computeDP(quer.trim(),threshold);
 			edit = trie.backTrack(((Node)res[0]).getId()); 
-			index = prevCut + 1 + (int)res[1];
+			index = (int)res[1] + 1;
             if(index!=-1){
                 i = index-1;
-				prevCut = index;
+				//prevCut = index;
+				//System.out.println(edit);
+				if(edit.equals(" ") || edit.equals("")) continue;
                 list.add(edit);
 				if(!edit.equals("city") && !edit.equals("not")) 
 					tokCount++; 
             }
+            query = quer;
         }
+        //System.out.println(Arrays.toString(list.toArray()));
         return list.toArray(new String[list.size()]);
     }
 	

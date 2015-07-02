@@ -15,32 +15,19 @@ public class Tester
 			String temp = br.readLine();
 			if(temp==null) break; 
 			temp = temp.toLowerCase();
-			String[] arr = ws.wordBreak(temp.trim(),3); 
 			boolean not = false; 
 			//System.out.println(Arrays.toString(arr));
 			//System.out.println(arr[5] + " " + (int) arr[5].charAt(0)); 
-			for(int i=0; i<arr.length; i++)
-			{
-				arr[i] = arr[i].trim(); 
-				//if(arr[i].equals("") || arr[i].equals(" ")) continue;
-				if(i!=0)
-				{
-					if(arr[i].equals("city") || not) 
-					{
-						out.print(" ");
-						not = false; 
-					}
-					else out.print(",");
-					
-					if(arr[i].equals("not")) not = true; 
-				}
-				out.print(arr[i]); 
-				/*System.out.print(" " + (int)arr[i].charAt(0)); */
-			}
+			Formatter form = new Formatter();
 			
 			//POST,Landyslideurgent,ECHAGUE,Road
 			//System.out.println(Arrays.toString(arr));
-			out.println();
+			String[] arr = ws.wordBreak(temp.trim(),3);
+			System.out.println(arr.length);
+			for(int i=0; i<arr.length; i++)
+				System.out.print(arr[i] + "|");
+			System.out.println();
+			out.println(form.format(arr));
 			out.flush();
 		}
 		long endTime = System.currentTimeMillis(); 
