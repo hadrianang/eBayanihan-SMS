@@ -14,7 +14,7 @@ public class SMSQuery {
 	final static String pass = "devuser0";
 	static Connection conn1 = null;
 	static Statement stmt1 = null;
-	static String regextext = "post [a-z ]*,[a-z ]*,[-a-z0-9.\' ]*,[-a-z0-9.\' ]*,[-a-z0-9 !@#$%^&*()_+`=;:\"\'<>/]*";
+	static String regextext = "post [a-z ]*,[a-z ]*,[-a-z0-9.\' ]*,[-a-z0-9.\' ]*(,[-a-z0-9 !@#$%^&*()_+`=;:\"\'<>/]*)?";
     static Pattern pat = Pattern.compile(regextext, Pattern.CASE_INSENSITIVE);
 
 	static WordSegmentation ws;
@@ -216,18 +216,14 @@ public class SMSQuery {
 		
 		public void run(){
 			try{
-				//System.out.println("HELLO1");
 				conn = DriverManager.getConnection(db_name,user,pass);
 				stmt = conn.createStatement();
 				while(true){
-					//System.out.println("HELLO");
 					String toProcess = "SELECT * FROM raw_sms_messages";
 					ResultSet rs = stmt.executeQuery(toProcess);
 					while(rs.next()) {
 						String status = rs.getString(6);
 						if(status == null||status.equals("unprocessed")){
-							// System.out.println(rs.getString(1)+" "+rs.getString(2));
-							// messageQueue.offer(new SMSobject(Integer.parseInt(rs.getString(1)),rs.getString(2)));
 							int smsID = Integer.parseInt(rs.getString(1));
 							messageQueue.offer(smsID);
 							conn.createStatement().executeUpdate("UPDATE raw_sms_messages SET is_processed = \'processing\' WHERE id = "+ smsID +";");
