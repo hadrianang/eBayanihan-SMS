@@ -1,0 +1,229 @@
+Case #11 : post rescue,not urgent,bongo isla,ndgemat-y | POST Rescue,not urgent,BONGO ISLAND GEMAT-Y
+Case #21 : post brownout,urgent,pasadeã±a poblacion | POST Brownout,urgent,PASADEÃ‘A POBLACION
+Case #24 : piot brownout,not urgent,anis salomague | POST Brownout,not urgent,ANIS SALOMAGUE
+Case #26 : post orani,urgent,poblacion west dansal | POST Rain,urgent,POBLACION WEST DANSAL
+Case #28 : piot relief,not urgent,camambugan sinandigan | POST Relief,not urgent,CAMAMBUGAN SINANDIGAN
+Case #32 : post orani,urgent,buhay na tubig bauyan | POST Rain,urgent,BUHAY NA TUBIG BAUAN
+Case #33 : piot rain,not urgent,dumabel guindapunan east | POST Rain,not urgent,DUMABEL GUINDAPUNAN EAST
+Case #37 : post fe,not urgent,mat-i malitbog | POST Fire,not urgent,MAT-I MALITBOG
+Case #38 : post health,not urgent,poblacion b biri sur | POST Health,not urgent,POBLACION BIRI SUR
+Case #40 : post acli,deet,not urgent sabang,cordon | POST Accident,not urgent,SABANG CORDON
+Case #45 : post landslide,not urgent,antongalon santo niã±o | POST Landslide,not urgent,ANTONGALON SANTO NIÃ‘O
+Case #52 : post brownout,urgent,santo niã±o mangandingay | POST Brownout,urgent,SANTO NIÃ‘O MANGANDINGAY
+Case #57 : post dauin,not urgent,barangay 717 pag-asa | POST Rain,not urgent,BARANGAY 717 PAG-ASA
+Case #72 : post fe,loo,not urgent tinongtongan,josefina | POST Flood,not urgent,TINONGTONGAN JOSEFINA
+Case #73 : post brownout,ura,san pablo 1st lusain | POST Brownout,urgent,SAN PABLO 1ST LUSAIN
+Case #76 : piot relief,urgent,homestead i new lucban | POST Relief,urgent,HOMESTEAD I NEW LUCBAN
+Case #80 : piot earthquake,urgent,patag poblacion | POST Earthquake,urgent,PATAG POBLACION
+Case #84 : post evacuate,lemon,pacuhan | POST Evac,urgent,LEMON PACUHAN
+Case #89 : post bridge,not urgent,cabunga-an villa,corenjo | POST Bridge,not urgent,CABUNGA-AN VILLA CORNEJO
+Case #90 : piot fire,not urgent,poblacion 14 barangay 482 | POST Fire,not urgent,POBLACION 14 BARANGAY 482
+Case #93 : post faire,not urgent,quiniput linggangao | POST Fire,not urgent,QUINIPUT LINGGANGAO
+Case #105 : post san vicente poblacion,libi,rain | POST Evac,urgent,POBLACION II BIRI
+Case #111 : pest landslide,not urgent,libas balite | POST Landslide,not urgent,LIBAS BALITE
+Case #112 : post not urgent,agmailig,gemat-y | POST Evac,not urgent,AGMAILIG GEMAT-Y
+Case #116 : post rescue,not urgent,santa elecia,guadalupe | POST Rescue,not urgent,SANTA LUCIA GUADALUPE
+Case #118 : post wind,ura,tentay tamban,i buyasyas | POST Wind,urgent,TAYAMBANI BUYASYAS
+Case #120 : post not urgent,barangay iv,san pedro island | POST Evac,not urgent,BARANGAY IV SAN PEDRO ISLAND
+Case #122 : post brgy,not urgent,gã±aran sinunoc | POST Brgy,not urgent,GÃ‘ARAN SINUNOC
+Case #123 : post not urgent,camanggaan,liang | POST Evac,not urgent,CAMANGGAAN LIANG
+Case #124 : porot rain,not urgent,dupitac dagbasan | POST Rain,not urgent,DUPITAC DAGBASAN
+Case #129 : piot brgy,urgent,calumpang salaysay | POST Brgy,urgent,CALUMPANG SALAYSAY
+Case #130 : post vega,not urgent,bacawan north poblacion | POST Evac,not urgent,BACAWAN NORTH POBLACION
+Case #139 : piot elcano,not urgent,situbo poblacion market | POST Evac,not urgent,SITUBO POBLACION MARKET
+Case #140 : boot health,not urgent,uson picalilangan | POST Health,not urgent,USON PICALILANGAN
+Case #143 : post flood,urgent,bara dangay,1cantao-an | POST Flood,urgent,BARANGAY  1 CANTAO-AN
+Case #148 : post not urgent,badiang,balogo | POST Evac,not urgent,BADIANG BALOGO
+Case #151 : post vega,not urgent,cabagã±an alannay | POST Evac,not urgent,CABAGÃ‘AN ALANNAY
+Case #154 : post brownout,not urgent,poblacion dist. iii igdurarog | POST Brownout,not urgent,POBLACION DIST. II IGDURAROG
+Case #156 : post evacuate,natba,taytay | POST Evac,urgent,BAYE TAYTAY
+Case #159 : piot evacuate,not agtabo,villa nogales | POST Evac,urgent,AGTABO VILLA NOGALES
+Case #161 : post relief,not urgent,entablado gairan | POST Relief,not urgent,ENTABLADO BAIRAN
+Case #167 : post earthquake,urgent,santo niã±o clarin settlement | POST Earthquake,urgent,SANTO NIÃ‘O CLARIN SETTLEMENT
+Case #172 : post not urgent,magpanambo,bagalupa | POST Evac,not urgent,MAGPANAMBO BAGALUPA
+Case #182 : post wind,urgent,batu oyan,cambinoy | POST Wind,urgent,BATUAN CAMBINOY
+Case #183 : post ronda,urgent,imelda santa lucia | POST Road,urgent,IMELDA SANTA LUCIA
+Case #203 : post bridge,not urgent,santa san rafael sur | POST Bridge,not urgent,SANTA INES SAN RAFAEL SUR
+Case #207 : post not urgent,santa anastacia,san isidro | POST Evac,not urgent,SANTA ANASTACIA SAN ISIDRO
+Case #208 : post rescue,urgent,old sagay datu,tmabara | POST Rescue,urgent,OLD SAGAY DATU TAMBARA
+Case #209 : post not urgent,casasahan ibaba,san antonio | POST Evac,not urgent,CASASAHAN IBABA SAN ANTONIO
+Case #226 : post road,urgent,barangay  2 milad | POST Road,urgent,BARANGAY  2 MALAD
+Case #231 : piot rescue,urgent,canarem lindongan | POST Rescue,urgent,CANAREM LINDONGAN
+Case #233 : pasi i earthquake,urgent,saba leon,lictin | POST Earthquake,urgent,SABAKEN LICTIN
+Case #234 : post flood,urgent,aguada alip,anvgpang | POST Flood,urgent,AGUADA ALIPANGPANG
+Case #240 : post not urgent,la paz,kulasian | POST Evac,not urgent,LA PAZ CULASIAN
+Case #241 : post rain,not urgent,cantuba rang-ay,1 | POST Rain,not urgent,NATU BARANGAY  1
+Case #243 : mostro urgent,santa cruz,san isidro | POST Road,urgent,SANTA CRUZ SAN ISIDRO
+Case #245 : post earthquake,ueg,intusan villa laida | POST Earthquake,urgent,UTANAN VILLA LAIDA
+Case #250 : post uacon,not urgent,datalbukay macalunod | POST Evac,not urgent,DATALBUKAY MACALUNOD
+Case #261 : pest rescue,urgent,laguan san joaquin | POST Rescue,urgent,LAGUAN SAN JOAQUIN
+Case #272 : post fire,not urgent,villa pantinople | POST Fire,not urgent,UPO VILLA PANTINOPLE
+Case #278 : post earthquake,not urgent,poblacion kaha,ygaan | POST Earthquake,not urgent,POBLACION KAHAYAGAN
+Case #279 : post heat,urgent,yuson batuli | POST Health,urgent,AYSON BATULI
+Case #284 : post arac,not urgent,sulangon santa monica | POST Evac,not urgent,SULANGON SANTA MONICA
+Case #287 : post bridge,not urgent,moroboro sapngan | POST Bridge,not urgent,MOROBORO SANGAT
+Case #298 : post vega,urgent,canhumawid tible | POST Evac,urgent,CANHUMAWID TUBLE
+Case #304 : post evacuate,nusa,cawacagan | POST Evac,urgent,SAYON CAWACAGAN
+Case #307 : post aring,urgent,hita-asan i salcedo | POST Rain,urgent,HITA-ASAN I SALCEDO
+Case #308 : pasta accident,urgent,san pedro malabing | POST Accident,urgent,SAN PEDRO MALABING
+Case #312 : post glan,dalid,urgent buhay na tubig,sabang pinamasagan | POST Landslide,urgent,BUHAY NA TUBIG SABANG PINAMASAGAN
+Case #313 : post brgy,urgent,sapa pequeã±a gen. luna | POST Brgy,urgent,SAPA PEQUEÃ‘A GEN. LUNA
+Case #316 : post brownout,not urgent,san jose cawa-cawa,palaad | POST Brownout,not urgent,SAN JOSE CAWA-CAWA PALAAD
+Case #319 : post relief,urgent,libucon dilabayan | POST Relief,urgent,LIBUTON DILABAYAN
+Case #321 : post flood,not urgent,santo niã±o rizal | POST Flood,not urgent,SANTO NIÃ‘O RIZAL
+Case #325 : piot rescue,urgent,balatican odiong | POST Rescue,urgent,BALATICAN ODIONG
+Case #327 : apo subay,urgent,panungyan ii poblacion xi | POST Brgy,urgent,PANUNGYAN II POBLACION XI
+Case #332 : post flood,not urgent,poblacion b lacag | POST Flood,not urgent,POBLACION BACAG
+Case #333 : post health,urgent,silawe osorio,sii | POST Health,urgent,SILAWE OSORIO II
+Case #337 : post orani,urgent,caitib santa cruz-santo niã±o | POST Rain,urgent,CAITIB SANTA CRUZ-SANTO NIÃ‘O
+Case #338 : post mac,pide,not urgent calaghusan,ebro | POST Accident,urgent,CALAGHUSAN EBRO
+Case #340 : post health,not urgent,culao sili,ong | POST Health,not urgent,CULASI LIONG
+Case #352 : post relief,not urgent,poblacion b ben-agan | POST Relief,not urgent,POBLACION BEN-AGAN
+Case #361 : post wind,not ueg,intusan ibid,ro gubaan | POST Wind,not urgent,SAN ISIDRO GUBAAN
+Case #364 : post rain,not urgent,cathedral falls oy,cti | POST Rain,not urgent,CATHEDRAL FALLS YOCTI
+Case #368 : pest fire,urgent,maypulot lutao | POST Fire,urgent,MAYPULOT LUTAO
+Case #372 : post wind,not urgent,caba new san agustin | POST Wind,not urgent,CABARIWAN SAN AGUSTIN
+Case #376 : post brgy,urgent,lepaga san antoni,c ogbon | POST Brgy,urgent,LEPAGA SAN ANTONIO OGBON
+Case #378 : post health,urgent,san jose guma,alng | POST Health,urgent,SAN JOSE GUMALANG
+Case #385 : post flood,urgent,tambak maria,no espelleta iii | POST Flood,urgent,TAMBAK MARIANO ESPELETA III
+Case #386 : post wind,not urgent,mona mona,ur port holladn zone iii pob. | POST Wind,not urgent,MONAMON SUR PORT HOLLAND ZONE III POB.
+Case #389 : post wind,urgent,aflek pata,bgo | POST Wind,urgent,AFLEK PATABOG
+Case #395 : post evacuate,calabidongan,lumbaca-ingud | POST Evac,urgent,CALABIDONGAN LUMBACA-INGUD
+Case #401 : apo flood,not urgent,malibago bolosan | POST Flood,not urgent,MALIBAGO BOLOSAN
+Case #413 : post evacuate,new asturias,poblacion vii | POST Evac,urgent,ASTURIAS POBLACION VII
+Case #418 : mostro not urgent,santiago,reyna regente | POST Rescue,not urgent,SANTIAGO REYNA REGENTE
+Case #422 : post tacup,urgent,dacudao babo pangulo | POST Evac,urgent,DACUDAO BABO PANGULO
+Case #423 : post heat,not urgent,barangay 284 sirao | POST Health,not urgent,BARANGAY 284 SIRAO
+Case #427 : post brgy,urgent,bayao bubon,gradapan | POST Brgy,urgent,BAYAO BUBONG RADAPAN
+Case #434 : post brgy,urgent,utanan pila | POST Brgy,urgent,UTANAN PILAR
+Case #439 : post flood,urgent,santo niã±o siare | POST Flood,urgent,SANTO NIÃ‘O SIARE
+Case #447 : post cueva,urgent,madaymen kaytambog | POST Evac,urgent,MADAYMEN KAYTAMBOG
+Case #451 : post orani,urgent,limulan manibaug pasig | POST Rain,urgent,LIMULAN MANIBAUG PASIG
+Case #455 : post vega,not urgent,paraiso kauran | POST Evac,not urgent,PARAISO KAURAN
+Case #456 : post wind,urgent,bolos utod | POST Wind,urgent,BOLO SUGOD
+Case #457 : post siain,urgent,halayhayin malakaban | POST Rain,urgent,HALAYHAYIN MALAKABAN
+Case #458 : post not urgent,sampaloc iv,barangay 629 | POST Evac,not urgent,SAMPALOC IV BARANGAY 629
+Case #460 : post aring,urgent,kulaman gaid | POST Rain,urgent,KULAMAN GAID
+Case #461 : post ronda,urgent,aloguinsan sibulan | POST Road,urgent,ALOGUINSAN SIBULAN
+Case #462 : post riang,not urgent,habagatan santo niã±o | POST Rain,not urgent,HABAGATAN SANTO NIÃ‘O
+Case #463 : post elcano,not urgent,san jose maot | POST Evac,not urgent,SAN JOSE MAOT
+Case #472 : post relief,not urgent,pamplona uno lower usugan | POST Relief,not urgent,PAMPLONA UNO LOWER USOGAN
+Case #473 : post fire,urgent,daligan gui,knobatan | POST Fire,urgent,DALIGAN GUINOBATAN
+Case #479 : post not urgent,teneclan,santo cristo | POST Evac,not urgent,TENECLAN SANTO CRISTO
+Case #485 : post not urgent,estrella,arakan | POST Evac,not urgent,ESTRELLA ARAKAN
+Case #487 : post ora,urgent,danlugan subusob | POST Road,urgent,DANLUGAN SUBUSOB
+Case #488 : ponot earthquake,not urgent,poblacion b alog,o | POST Earthquake,not urgent,POBLACION BALOGO
+Case #490 : post health,urgent,romagondong santo niã±o | POST Health,urgent,ROMAGONDONG SANTO NIÃ‘O
+Case #491 : post accident,urgent,barangbang mone,tla | POST Accident,urgent,BARANGBANG MONTELA
+Case #498 : post bridge,urgent,uso barangay  65 | POST Bridge,urgent,SUYO BARANGAY  65
+Case #501 : post relief,urgent,talus sangay,west poblacion | POST Relief,urgent,TALUKSANGAY WEST POBLACION
+Case #504 : post health,urgent,palang ueg,2&  3 concepcion | POST Health,urgent,PALANGUE 2 & 3 CONCEPCION
+Case #506 : post fe,eli,not urgent magkarila,kanitoan | POST Relief,not urgent,MAGKARILA KANITOAN
+Case #508 : post elcano,not urgent,old kibawe cato-ogan | POST Evac,not urgent,OLD KIBAWE CATO-OGAN
+Case #521 : post fire,not urgent,sibuto magsaysay | POST Fire,not urgent,LIBUTON MAGSAYSAY
+Case #522 : mostro not urgent,kasapa ii,bulan | POST Road,not urgent,KASAPA II BULAN
+Case #525 : post brownout,urgent,san jose cawa-cawa,mahayag | POST Brownout,urgent,SAN JOSE CAWA-CAWA MAHAYAG
+Case #532 : post rescue,not urgent,baka central barangay,96 | POST Rescue,not urgent,BAKAKENG CENTRAL BARANGAY  96
+Case #537 : post fe,ogod,urgent silangang calutan,de carabao | POST Flood,urgent,SILANGANG CALUTAN DE CARABAO
+Case #541 : post eman,not urgent,hamod tanza | POST Evac,not urgent,HAMOD TANZA
+Case #547 : post relief,urgent,luuk tara,libertad | POST Relief,urgent,LUUK TARA LIBERTAD
+Case #552 : post evacuate,poblacion zone  3,tagpopongan | POST Evac,urgent,POBLACION ZONE  3 TAGPOPONGAN
+Case #553 : post evacuate,sermon,lamut | POST Evac,urgent,SERMON LAMUT
+Case #554 : post brownout,urgent,santo niã±o fatima | POST Brownout,urgent,SANTO NIÃ‘O FATIMA
+Case #565 : post bridge,not urgent,barangay barangay 27-c | POST Bridge,not urgent,BARANGAY 314 BARANGAY 27-C
+Case #574 : fort rescue,not urgent,comaang marabutuan | POST Rescue,not urgent,COMAANG MARABUTUAN
+Case #577 : post landslide,urgent,lower santo niã±o getulio | POST Landslide,urgent,LOWER SANTO NIÃ‘O GETULIO
+Case #583 : pest wind,urgent,laguinbanua calapi | POST Wind,urgent,LAGUINBANUA CALAPI
+Case #585 : post brgy,urgent,awang dangcalan | POST Brgy,urgent,AYONG DANGCALAN
+Case #586 : post siain,urgent,ilaya 1st burgos | POST Rain,urgent,ILAYA 1ST BURGOS
+Case #590 : post rain,urgent,osmeã±a andulauan | POST Rain,urgent,OSMEÃ‘A ANDULAUAN
+Case #598 : post rain,not urgent,santo niã±o ii rizal | POST Rain,not urgent,SANTO NIÃ‘O II RIZAL
+Case #606 : post flood,urgent,piglisan gibon | POST Flood,urgent,PIGLISAN GOIN
+Case #608 : pest health,urgent,bagatayam san jose | POST Health,urgent,BAGATAYAM SAN JOSE
+Case #610 : post dine,urgent,calubian catmon | POST Fire,urgent,CALUBIAN CATMON
+Case #613 : post health,urgent,gui layo,pagalamatan | POST Health,urgent,GUILAYON PAGALAMATAN
+Case #614 : post earthquake,urgent,naga paranas,ixto vele | POST Earthquake,urgent,NAGAPARAN SIXTO VELE
+Case #615 : post rain,urgent,mambiranan pequeã±o daldagan | POST Rain,urgent,MAMBIRANAN PEQUEÃ‘O DALDAGAN
+Case #618 : pest brgy,not urgent,bobongan barangay e | POST Brgy,not urgent,BOBONGAN BARANGAY E
+Case #620 : boot health,not urgent,pogomboa san rafael | POST Health,not urgent,POGOMBOA SAN RAFAEL
+Case #626 : post rain,urgent,sambulawan alucao | POST Rain,urgent,SAMBULAWAN LUCA
+Case #630 : post rescue,urgent,tubas san vicente | POST Rescue,urgent,TUBA SAN VICENTE
+Case #633 : post not urgent,poblacion,aguinaldo | POST Evac,not urgent,POBLACION AGUINALDO
+Case #634 : post road,not urgent,peã±afrancia mac,ailbre | POST Road,not urgent,PEÃ‘AFRANCIA MACALIBRE
+Case #639 : post elcano,not urgent,san manuel malaguit | POST Evac,not urgent,SAN MANUEL MALAGUIT
+Case #643 : post rain,urgent,malubi santa,teersa | POST Rain,urgent,MALUID SANTA TERESA
+Case #648 : post meta,not urgent,kilkiling indangan | POST Evac,not urgent,KILKILING INDANGAN
+Case #652 : post health,not urgent,capsay mariana | POST Health,not urgent,CAPAS MARIANA
+Case #660 : post evacuate,poblacion ii,francia | POST Evac,urgent,POBLACION II FRANCIA
+Case #663 : post earthquake,urgent,linao san miguel | POST Earthquake,urgent,BANAO SAN MIGUEL
+Case #664 : post rescue,urgent,puypuy doã±a flavia | POST Rescue,urgent,PUYPUY DOÃ‘A FLAVIA
+Case #666 : pest flood,urgent,inalad caridad | POST Flood,urgent,INALAD CARIDAD
+Case #671 : post evacuate,nena,bao san roque | POST Evac,urgent,NABAO SAN ROQUE
+Case #672 : post wind,not urgent,imamaling ino | POST Wind,not urgent,IBA MALINGIN
+Case #674 : post not urgent,poblacion ii,magsaysay | POST Evac,not urgent,POBLACION II MAGSAYSAY
+Case #677 : piot rescue,not urgent,san nicolas san jose balatok | POST Rescue,not urgent,SAN NICOLAS SAN JOSE BALATOK
+Case #678 : post brgy,not urgent,montaã±a barangay 143 | POST Brgy,not urgent,MONTAÃ‘A BARANGAY 143
+Case #681 : post health,urgent,santo niã±o bgy. no. 32- | POST Health,urgent,SANTO NIÃ‘O BGY. NO. 32-
+Case #701 : post not urgent,cabaruan,san pablo | POST Evac,not urgent,CABARUAN SAN PABLO
+Case #706 : post rain,urgent,feliciano tula,eyan island | POST Rain,urgent,FELICIANO TULAYAN ISLAND
+Case #707 : post faire,not urgent,buli kibongbong | POST Fire,not urgent,BULI KIBONGBONG
+Case #708 : post escaler,tee,tumanan barangay 856 | POST Evac,urgent,MANANGLE BARANGAY 856
+Case #713 : post not urgent,ilian poblacion,singko | POST Evac,not urgent,ILIAN POBLACION SINGKO
+Case #721 : post accident,urgent,datu anggal midtimbang tubang | POST Accident,urgent,DATU ANGGAL MIDTIMBANG UBANG
+Case #723 : post accident,not not urgent,barangay 587-a bitadton sur | POST Accident,not urgent,BARANGAY 587-A BITADTON SUR
+Case #725 : post not urgent,calambua,banaba | POST Evac,not urgent,CALAMBUA BANABA
+Case #731 : post not urgent,nicolas agatep,barangay  20 | POST Evac,not urgent,NICOLAS AGATEP BARANGAY  20
+Case #734 : post ula,urgent,santa juana san francisco | POST Evac,urgent,SANTA JUANA SAN FRANCISCO
+Case #735 : root rescue,urgent,canito-an san mariano | POST Rescue,urgent,CANITO-AN SAN MARIANO
+Case #738 : potot health,not urgent,tinintinan matindeg | POST Health,not urgent,TININTINAN MATINDEG
+Case #740 : post brownout,ura,de la peã±a poblacion i | POST Brownout,urgent,DE LA PEÃ‘A POBLACION I
+Case #741 : post health,not urgent,nalbu luma,nin | POST Health,not urgent,NALBU LUCANIN
+Case #743 : post not urgent,san isidro,barangay 13 | POST Evac,not urgent,SAN ISIDRO BARANGAY 13
+Case #744 : post health,not urgent,janagdong centro  1 | POST Health,not urgent,JANAGDONG CENTRO   1
+Case #746 : post not urgent,barangay 287,balong-bato | POST Evac,not urgent,BARANGAY 287 BALONG-BATO
+Case #752 : post evacuate,mabuhay i,irisan | POST Evac,urgent,MABUHAY IRISAN
+Case #753 : post rescue,urgent,sabtang sinabacan | POST Rescue,urgent,SABANG SINABACAN
+Case #765 : post relief,not urgent,inangatan muã±oz west | POST Relief,not urgent,INANGATAN MUÃ‘OZ WEST
+Case #769 : piot health,not urgent,dimasari baluno | POST Health,not urgent,DIMASARI BALUNO
+Case #770 : post earthquake,not urgent,barangay 26 barangka,iladya | POST Earthquake,not urgent,BARANGAY 26 BARANGKA ILAYA
+Case #772 : post not urgent,deporehan,barangay  28 | POST Evac,not urgent,DEPOREHAN BARANGAY  28
+Case #778 : post wind,urgent,santa cruz pago,gobngan | POST Wind,urgent,SANTA CRUZ CAGOGOBNGAN
+Case #790 : post evacuate,atbu,gomtago | POST Evac,urgent,BUCO GOMTAGO
+Case #800 : post earthquake,not urgent,aplaya francia | POST Earthquake,not urgent,PAPAYA FRANCIA
+Case #805 : post accident,urgent,bao laaw,edicayas | POST Accident,urgent,BALOCAWE DICAYAS
+Case #807 : post tua,urgent,barangay  43-a lip-ac | POST Evac,urgent,BARANGAY  43-A LIP-AC
+Case #821 : post landslide,not urgent,santa catalina santa,r osa | POST Landslide,not urgent,SANTA CATALINA SANTA ROSA
+Case #825 : post relief,not urgent,bagasbas ala,ngihlan | POST Relief,not urgent,BAGASBAS ALANGILAN
+Case #827 : post bridge,urgent,gas kiput,ol | POST Bridge,urgent,GAHIT PUTOL
+Case #834 : post health,not urgent,barangay 759 barang,hy 298 | POST Health,not urgent,BARANGAY 759 BARANGAY 298
+Case #850 : post brgy,urgent,dipalusan apo,lobg | POST Brgy,urgent,DIPALUSAN APOLONG
+Case #860 : post brownout,not urgent,amlao alulod | POST Brownout,not urgent,AMALOY ALULOD
+Case #867 : ponso flood,urgent,bubong santa lucia paguiba | POST Flood,urgent,BUBONG SANTA LUCIA PAGUIBA
+Case #872 : post vega,urgent,caupasan bangon | POST Evac,urgent,CAUPASAN BANGON
+Case #873 : pest flood,urgent,bacayao norte santol,niï¿½ï¿½o | POST Flood,urgent,BACAYAO NORTE SANTO NIÃ‘O
+Case #874 : post health,urgent,buao buso,tubig indangan | POST Health,urgent,BUSO-BUSO TUBIG INDANGAN
+Case #883 : post faire,not urgent,maruwa mahayahay | POST Fire,not urgent,MARUWA MAHAYAHAY
+Case #893 : post rescue,urgent,consuelo barang,ya  86 | POST Rescue,urgent,CONSUELO BARANGAY  86
+Case #896 : post rescue,urgent,santa maria magdalena,balintocatoc | POST Rescue,urgent,SANTA MARIA MAGDALENA BALINTOCATOC
+Case #908 : piot bridge,not urgent,ba-ug poctoy | POST Bridge,not urgent,BA-UG POCTOY
+Case #913 : post evacuate,cabatang,macasilao | POST Evac,urgent,CABATANG MACASILAO
+Case #914 : post evacuate,tugbungan,lawis | POST Evac,urgent,TUGBUNGAN LAWIS
+Case #916 : post aring,not urgent,mansilano tupsan | POST Rain,not urgent,MANSILANO TUPSAN
+Case #919 : pest road,ura,west poblacion iba,biyoy | POST Road,urgent,POBLACION I-A BIYOY
+Case #922 : pocto brownout,urgent,barangay ii sinai | POST Brownout,urgent,BARANGAY II SINAI
+Case #924 : post health,not urgent,cavite bgy. 20 - cabagã±an east | POST Health,not urgent,CAVITE BGY. 20 - CABAGÃ‘AN EAST
+Case #929 : post evacuate,poctoy,causwagan | POST Evac,urgent,POCTOY CAUSWAGAN
+Case #934 : post evacuate,atsan,vacante maguling | POST Evac,urgent,SAN VICENTE MAGULING
+Case #936 : post vega,not urgent,binabalian tagas | POST Evac,not urgent,BINABALIAN TAGAS
+Case #940 : post ora,not urgent,san juan valentina | POST Road,not urgent,SAN JUAN VALENTINA
+Case #948 : post not urgent,agtambi,poblacion | POST Evac,not urgent,AGTAMBI POBLACION
+Case #949 : post not urgent,san felipe-santiago,balagtas | POST Evac,not urgent,SAN FELIPE-SANTIAGO BALAGTAS
+Case #950 : post evacuate,bone north,overview | POST Evac,urgent,BONE NORTH OVERVIEW
+Case #951 : post evacuate,daganas,new sagay | POST Evac,urgent,DAGANAS NEW SAGAY
+Case #959 : post not urgent,kibogtok,tigpalas | POST Evac,not urgent,KIBOGTOK TIGPALAS
+Case #967 : post vega,cruz,venus budi,c dugman | POST Evac,urgent,SUBIC DUGMAN
+Case #977 : post brgy,urgent,indangan santo niã±o | POST Brgy,urgent,INDANGAN SANTO NIÃ‘O
+Case #978 : post health,urgent,limarayon calit,liatn | POST Health,urgent,LIMARAYON CALITLITAN
+Case #985 : piit flood,urgent,dulag barangay,x3 | POST Flood,urgent,DULAG BARANGAY   3
+Case #996 : root earthquake,urgent,rizal west la granja | POST Earthquake,urgent,RIZAL WEST LA GRANJA
+77.2% correct

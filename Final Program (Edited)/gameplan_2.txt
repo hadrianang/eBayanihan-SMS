@@ -1,0 +1,7 @@
+1. Generate new test cases (different sets)
+	a) Set A: Generic mistakes
+	b) Set B: Spelling mistakes only -- all syntax correct 
+2. E-mail Ma'am Reena -- test cases and updated version of the paper 
+3. Clean and document code
+4. Produce manual of how to use program 
+5. Finish writing paper 

@@ -1,0 +1,1001 @@
+post accident,not urgent barangay 291,san isidro
+post bridge,not urgent,uvoy poblacion ii
+post fire,urgent,macarina pagbabangnan
+post health,urgent,fe mercedes,dmaasim
+post brgy,not urgent,osorio ii sampaloc
+post landslide,urgent,santo niño dimalinao
+post earthquake,not urgent,tambac upper licanan
+post rescue,urgent,barangay 117 centro
+post brgy,not urgent,tugbo mangarin
+post accident,not urgent,capahuan jose a. roño
+post accident,urgent,taruc puro
+post fire,urgent,baguingin barangay 22
+post flood,urgent,san juan aggub
+pittland silid,urgent,poblacion viii tagoranao
+piot bridge,urgent,basagad barangay 36
+post road,urgent,sildora salapingao
+post health,not urgent,baluarte luy-a
+post rescue,not urgent,barangay 350 bayong
+pest brgy,not urgent,barangay 23 la suerte
+post rescue,urgent,parsolingan poblacion  3
+post landslide,urgent,macate santa cruz,k ii
+post bridge,urgent,caanawan malitbog
+post relief,urgent,natandol san ildefonso
+post fire,urgent,saldang poblacion i
+post health,not urgent,bogo maygatasan
+post accident,not urgent,dunguan songsong
+post flood,urgent,sagana bgy. 53 - bonga
+post earthquake,urgent,bonbon amobocan
+post aring,urgent,nansiakan magsaysay
+post accident,urgent,tabucan morente
+post ora,not urgent,guindawahan lago
+post road,urgent,juson piagma
+post fire,urgent,esperanza kidalapong
+piot accident,urgent,divisoria kalangay
+post accident,not urgent,diampak buga
+post ronda,urgent,lual rural poblacion barangay  6
+post health,not urgent,centro ii san roque
+post earthquake,urgent,sugadol tonga
+post health,urgent,malambuhangin domolok
+post flood,urgent,camagong liliongan
+post flood,urgent,santa cruz concepcion
+post rescue,not urgent,lipot north benitinan
+post relief,urgent,cabisilan victoria
+post accident,not urgent,palanas libutan
+post relief,not urgent magsaysay,saguise
+post ronda,urgent,agnonoc tomongcal ligi
+post brgy,urgent,barangay 17 townsite
+post health,not urgent,bulacan tacpao
+post accident,not urgent,bangcud barangay  13
+post not urgent,barangay  ii,san sebastian
+post rescue,not urgent,pagalamatan rizal
+post earthquake,urgent,purog sagrada
+post wind,urgent,magsaysay agunod
+post evacuate,lurogan,rizal ibaba
+post earthquake,urgent,naga barangay  6
+post fire,not urgent,malolos city calimaturod
+post rescue,urgent,javier calangag
+post landslide,urgent,osorio mabini
+post brownout,urgent,san roque tabuk,u city
+post health,urgent,kabayan  barrio tabuanon
+post rain,urgent,santo tomas barangay no.  2
+post brownout,urgent,mabusag norte centro
+post road,urgent,baga san francisco b
+post flood,urgent,bahay magcaalam
+post brownout,urgent,poblacion baras
+post wind,urgent,bowi pagalongan
+post rain,not urgent opong,talon uno
+post health,urgent,bunacan amduntog
+post accident,urgent,san bernabe pulong santol
+post brgy,urgent,calancuasan norte napua
+post meta,not urgent,consuelo barangay 15
+post landslide,not urgent nanguilattan,malaiba
+post brgy,not urgent,paghuliran barangay poblacion  5
+post rescue,urgent,bucana malaki siclong
+post landslide,not urgent,talamimi barag,nay 5 pob.
+post road,not urgent,ocapon salvador
+post brownout,urgent,anilao east mabini
+post brownout,urgent,central balintawak
+post rain,not urgent,nangalisan yocti
+post relief,urgent,cabugao santo niño
+post accident,urgent,villadima camachile
+post rain,not urgent,barangay  tres marmol
+post rescue,not urgent,poblacion b ara,ngayu 1malico
+post landslide,urgent,barasan este mitugas
+post vega,not urgent,manibaug pasig poblacion north
+post brgy,urgent,valencia mabusag norte
+post relief,urgent,katipunan calaasan
+post heat,not urgent,ayubo katipunan
+post wind,not urgent,barangay 496 santa rosa
+post flood,urgent,bilad manalupong
+post brgy,not urgent,san juan cagawitan
+post rescue,urgent,panninan mana,mrbag
+post road,urgent,datu saudi-ampatuan borobor
+post flood,not urgent,dolores cubay
+post brgy,not urgent,olera burol iii
+post flood,urgent,lub-lubba talang
+post aring,urgent,vigan city santa,clraa
+post elcano,not urgent,tigasao cawa,yawnan
+post not urgent,libas gua,pitogo
+post flood,urgent,banonong santa ines
+post brownout,urgent,san nicolas piliw
+post fire,urgent,raois concepcion
+post fire,not urgent,barangay 3 ilayang atingay
+post accident,not urgent,barang dau,454sinippil
+post brownout,urgent,manlapay dionum
+post earthquake,not urgent pilar,pisawak
+post rescue,not urgent,old caaluan butan
+post earthquake,not urgent,santo niño recreo
+post relief,not urgent,baybay asis ii
+post rescue,not urgent,pagalungan dianed
+post fire,urgent,adaon poblacion molo
+post relief,not urgent,bannawag norte pasong tamo
+post landslide,not urgent,damolog baloc
+post accident,urgent,dilud guiljungan
+post landslide,not urgent,mialen zambowood
+post brgy,not urgent,beruar salvacion
+post fire,urgent,palangue 1 crispin salazar north
+post accident,urgent,dumaguete city buenasuerte
+post fire,urgent,tabo barangay  2
+post not urgent,santa clara,cagawitan
+post relief,urgent,maharlika poblacion  ii-b
+post brownout,urgent,cagamutan del norte maria rosario
+post brownout,not urgent,roxas banga
+post wind,not urgent,mimbuahan tigbanuang
+post wind,not urgent,poblacion pikeg
+post wind,not urgent magsaysay  hills,mamis
+post road,not urgent,j.p. laurel palca
+post bridge,urgent,agcawilan himos-onan
+post landslide,urgent,candari pandan
+post bridge,urgent,kamawi canda
+post brownout,urgent,buca dala,ii cagdianao
+post flood,not urgent,poblacion bayto
+post not urgent,bangcal,dipaculao
+post relief,not urgent,tugas daladagan
+post fe,fire,not urgent,barangay iii,sambag
+boot relief,not urgent,barangay 791 bagumbayan
+post accident,urgent,bunga kuhaw
+post relief,urgent,sag-on tombador
+post health,not urgent,san jose poblacion maypangi
+post accident,urgent,casuntingan lipata
+post fire,not urgent yangta,dacu
+post fire,urgent,lindogon bonifacio district
+post rain,not urgent santa cruz i,laya,ng tayuman
+post bridge,not urgent,poblacion iv moog
+post bridge,not urgent,mangkasay lapaken
+post accident,urgent,benedicto lantawan proper
+post relief,urgent,batang calaanan
+post relief,urgent,santa maria san mariano
+post brownout,not urgent,casili-on honrado
+post fire,not urgent,canlupao arellano
+post relief,not urgent legarda-burnham-kisad,madanlog
+post relief,urgent,lobe-lobe east nalil
+post rain,not urgent moncado kadingilan,santa rosa
+post rescue,urgent,sagrada piagma
+post rescue,urgent,silag banay
+piit relief,not urgent,san antonio alaminos city
+post flood,urgent,pinascohan maligaya
+post landslide,not urgent,gasa taguig city
+post fire,urgent,alagao dansalan
+pogo health,not urgent,centro poblacion poblacion west
+post bridge,not urgent north fairview,pagalamatan
+post brownout,not urgent fianza,puting buhangin
+post brgy,urgent,cabayuan bonga
+post fire,not urgent,cabunga-an santo niño 1st
+porot accident,not urgent malalangsi,buang
+post earthquake,urgent,barangay iii buenasuerte
+post evacuate,not baje sampiniton
+post bridge,not urgent,ahin mangangan i
+post rain,not urgent,mrr-queen of peace napuro ii
+post brownout,not urgent,salvador cabbo
+post accident,not urgent,palitod mahabang parang
+post flood,urgent,mahayahay bulusan
+post landslide,not urgent cantigdas,bogo
+post fire,urgent,barangay 651 ilog
+post bridge,not urgent barangay 19,barangay  1
+post rescue,not urgent,la union santa lucia
+piot brgy,not urgent,lezo bañadero
+post bridge,not urgent,e. j. dulay impugong
+post rescue,urgent,guiwanon bagsak
+post rescue,urgent,dananao buenasuerte
+post earthquake,urgent,calagonsao poblacion
+pest brgy,not urgent,malegdeg san juan
+post fire,urgent,tongehat poblacion
+post tua,urgent,camindangan maibo
+post accident,urgent,bacolod city libertad
+post relief,urgent,looc sapi sambat
+post earthquake,urgent,luac tangcul
+post bridge,not urgent,poblacion e sas,tii matambog
+post flood,not urgent,arangin malabing
+post flood,urgent,rizal ubos ilaya
+post brownout,urgent,luca tuboran
+post health,urgent,paco lubo
+post ora,not urgent,tagpo julugan i
+post health,not urgent napalico,lonoy
+post accident,not urgent ibo,talahib
+pest flood,urgent,sultan gumander colongcolong
+post rescue,urgent,lupi san antonio
+post bridge,urgent,dunglayan tugnao
+post wind,urgent,sibulao silingan
+post road,not urgent,opao santo niño
+post brownout,not urgent,capangpangan bagoenged
+post accident,urgent,poblacion east pandan
+post bridge,not urgent,barangay  16 tanzang luma iii
+post inroad,urgent,pagbangkeruan algeciras
+post aring,not urgent,palale santo domingo
+post relief,urgent,bacjao gatang
+post bridge,not urgent,patong-patong olivete
+post bridge,urgent,palanogan kasapa
+post landslide,not urgent,mandaloque bangco
+post health,urgent,kalubihon dagupan
+post evacuate,barangay poblacion 4,doña telesfora
+post fire,not urgent dalgan,nambbalan sur
+post flood,not urgent dalipit west,carpentero
+post flood,not urgent,casapa maridagao
+post landslide,urgent,matangcong cabaruan
+post landslide,urgent,rizal calabawan
+post earthquake,not urgent,tabangao aplaya tinago
+post brgy,urgent,dansalan dacsula maluac
+post accident,urgent,cayogcog palsahingin
+post brownout,urgent,pantalan cavite
+post wind,not urgent logac,mampas
+post relief,urgent,cawayan banglolao
+post brownout,not urgent,salay caputatan norte
+post health,urgent,lubong san isidro
+post brgy,urgent,manlot sabangan
+post fire,not urgent,a. bonifacio calabalabaan
+post roma,not urgent,la fortuna san antonio
+post brownout,urgent,lumbac cambalong
+piot road,urgent,lamesa barangay ii
+post brownout,urgent,kawit baliuag viejo
+post fire,not urgent,parian biga i
+post relief,urgent,catig agcococ
+post earthquake,not urgent,barangay  53 palangue 1
+post road,urgent,villa labrador sampaloc  1
+post landslide,not urgent bunawan,pacang
+post evacuate,poblacion,bicos
+post road,urgent,bontay marzan
+post accident,urgent,union san roque
+post wind,not urgent,liyang lipata
+post earthquake,not urgent,san vicente bomitog
+post accident,urgent,submakin canalate
+post relief,not urgent,balogo danao
+post fire,not urgent,gimamanay san mariano sur
+post relief,urgent,narvacan ii catabaguangan
+pest brownout,not urgent,centro toma villaflor
+post bridge,urgent,cabadbaran salvacion
+piut earthquake,urgent,culiong ahin
+post landslide,not urgent,chumang gumboc
+post brgy,urgent,lipa guinzadan sur
+post landslide,not urgent,pagawan bantug
+post vega,urgent,tambal mandong
+post health,not urgent poblacion 2,tubongan
+post flood,not urgent,carandangan calopaan boloc
+post brgy,not urgent san isidro,bolongtohan
+post brgy,not urgent landan,gala,emfatima
+post road,not urgent cadayonan,santo tomas
+losa bridge,not urgent,kamagong pudo
+boot relief,urgent,doh-tong bulacnin
+post brgy,not urgent,lunec santor
+post bridge,urgent,lunday davao,cmty
+post bridge,not urgent,san antonio sinisian
+post bridge,urgent,capanickian norte ariston weste
+post elcano,not urgent,benowangan san francisco
+post rescue,urgent,antipolo bulan
+post fire,not urgent,maniak san luis
+post flood,not urgent,san antonio poblacion
+post rescue,urgent,macalunod balombon
+post accident,urgent,ili sifaren
+post relief,urgent,pallocan kanluran tamboli
+post rescue,not urgent,manilan adams
+post landslide,not urgent,piangologan mina
+post flood,urgent,san dionisio alabang
+post earthquake,urgent,andagaw poblacion west
+post landslide,urgent,santa cruz irasan
+post earthquake,urgent,villa vicenta paril
+post brgy,urgent,pagsa santa catalina
+post wind,not urgent kabalasan,dalla
+post landslide,not urgent,magsaysay station-church site
+post road,urgent,pinamangcaan cebole
+post road,urgent,morob boor,pagatpat
+post evacuate,tubburan,bagong buhay
+post flood,urgent,imus city linuan
+post rain,not urgent,matnog purok  2
+post brgy,urgent,san jose serranzana
+post landslide,urgent,manjuyod cansan
+post landslide,urgent,santa cruz,mainit
+post health,not urgent,balakan soyung
+post bridge,not urgent,kibanban mabini extension
+root flood,not urgent,calipapa sawa
+post earthquake,not urgent,taotaon banubo
+post brgy,urgent,pagolingin bata bahay
+post accident,not urgent,calabaca labney
+post rain,not urgent san miguel,kinamlutan
+post brgy,urgent,begong san miguel
+post health,urgent,dinaga poblacion
+post not urgent,malayanan,quezon
+post fire,not urgent,kalawit malaganding
+post brownout,not urgent,san jose pangangaan
+post bridge,urgent,cabadiangan san antonio
+post bridge,urgent,lalawigan balluay
+post brgy,not urgent,angustias zone i calongongan
+post rain,not urgent,cadayonan san miguel
+post rain,urgent,san gregorio simayung
+post earthquake,not urgent canbantug,san isidro
+pest fire,urgent,coline-dalag rizal
+post brownout,urgent,guingoyuran polungguitguit
+post not urgent,kiloyao,sokol
+post landslide,not urgent caluasan,tamak
+post bridge,not urgent,letapan santa rita
+post not urgent,pogo,puerto princesa
+post landslide,urgent,pajo maligaya
+post road,not urgent,motiong barangay 110
+post wind,urgent,calibuyo cabunlawan
+post health,urgent,nicanor zabala cari minor
+post brgy,not urgent,capt. fernando loqueb norte
+post brownout,urgent,upper sicpao bakat
+post wind,not urgent,inapatan manoc-manoc
+post relief,not urgent,bolosan guiwang
+post brownout,urgent,citrus palihan
+post landslide,urgent,sala hugon rosales
+post bridge,urgent,yapad minuyan v
+post fire,not urgent,san francisco 2nd aniog
+post bridge,not urgent,sunggod rosario
+post relief,urgent,funda portulin
+post relief,not urgent soa,dumolog
+post rescue,urgent,maria uray sambowang atawa
+post flood,urgent,balantang manga
+post health,not urgent,ungus-ungus mabini
+post flood,not urgent,luyong catungan barangay 416
+post earthquake,urgent,san roque duyoc
+post relief,urgent,corazon calingatan
+post earthquake,urgent,lidong barangay  94
+post brgy,not urgent,sumalo alagatan
+post road,not urgent,manggahan cabatanga
+post wind,not urgent,budiao poblacion barangay  5
+post earthquake,not urgent manion,poblacion zone 13
+post relief,urgent,bgy. no. 30- barangay  34
+post brownout,urgent,linmansangan tinejero
+post relief,not urgent,talub lower taviran
+post brownout,not urgent,lingaling santa,irta
+post brownout,not urgent,bgy. no. 49- linuan
+post brgy,not urgent sungay,balenciagao sur
+post wind,not urgent,talagutong barugohay sur
+post evacuate,tinaungan,ambaracao norte
+post accident,not urgent,liong bonifacio
+post flood,not urgent,san mateo san antonio
+post elcano,not urgent,sengngat tinib
+post relief,urgent,santa milagrosa paratong
+post rain,urgent,cabalitian rizal
+post relief,urgent,bangon pelaez
+post bridge,not urgent cotnogan,south lamidan
+pest fire,not urgent,uson de la paz
+post brownout,urgent,garab binanu-an
+post health,not urgent,santa cruz oriental ii
+post brownout,urgent,nagsidorisan mahagna
+post earthquake,urgent,pacoc bunsuran i
+post health,not urgent bolacan,catmonan
+post fire,urgent,santa rita calumpang
+post landslide,urgent,beleng san pablo
+post bridge,not urgent,codcod bugallon norte
+post brownout,urgent,cabad magsaysay
+post earthquake,not urgent,papaya manuel barra
+post wind,not urgent,pulo ngibat,upi
+post brgy,urgent,san juan timbab
+post brgy,not urgent,barangay 1 damires
+post accident,not urgent coto,del rosario
+post flood,urgent,guinzadan central santa,smonica
+post brgy,urgent,osao boton
+post rescue,urgent,balolang amunitan
+post road,urgent,cabayogan paltao
+post flood,not urgent,kilada ibabang banga
+post landslide,urgent,rizal kipuntos
+post brgy,not urgent dananao,roxas i
+post fire,not urgent,hunan sampao
+pest bae,not urgent,balete san miguel
+post earthquake,urgent,magdalo cozo
+post road,urgent,cadian airport village
+post flood,urgent,tambunac poblacion i
+post flood,urgent,bugaan east haguimitan
+post brownout,urgent,alumpang paino mimbalay palocpoc i
+post flood,not urgent,san jose imelda
+post bridge,urgent,anoling balusbos
+post rain,not urgent,dahilig union
+post relief,not urgent,hagonghong tubod
+post health,urgent,mendis panuran
+post accident,not urgent,san jose i obo
+post aring,not urgent,dibut dagong
+post landslide,not urgent poblacion delgado,kalumboyan
+post health,urgent,pag-asa nueva era
+post relief,urgent,bualan pinagrealan
+post earthquake,urgent,pangutosan bulak
+post flood,not urgent,telaje bongol san vicente
+post flood,urgent,santo cristo matanao
+post flood,not urgent,mangali centro agus,alo weste
+piot brownout,not urgent,mugdo tebalawon
+post relief,urgent,salvacion barangay,w82
+post flood,not urgent,nagdayao funda
+post fire,urgent,oroquieta city quiling norte
+post rescue,not urgent villa paz,pagbunitan
+piit accident,not urgent cadolonan,catarman
+post evacuate,linabuan norte,turod norte
+post fire,urgent,bago oshiro garrido
+post relief,not urgent,lale magabta
+post health,urgent,bituan pagolingin bata
+post brownout,urgent,bayugao oeste calubihan
+post flood,not urgent,san roque salvacion
+post brgy,not urgent kapamanok,bio-os
+post brgy,urgent,consuelo sur cabiten
+post riang,not urgent,poblacion poblacion vi
+post accident,not urgent,sacsac bungahan
+post rescue,urgent,san bartolome pao 1st
+post flood,not urgent,poblacion  1 patrocinio
+post fire,urgent,bakero gabon
+boot vega,not urgent,tayambani alegria
+post health,not urgent,bongbong kahapunan
+post landslide,urgent,turod kuppong
+post road,urgent,raya bangaoilan east
+post brownout,urgent,villa cornejo basud
+post rescue,urgent,divisoria pontevedra
+post health,not urgent,poblacion 1 jose rizal
+post wind,urgent,barangay 669 parian
+post bridge,urgent,cacao lapidian
+post road,not urgent,quezon mandu-ao
+post accident,not urgent,villa norte trece martirez
+post fire,urgent,del rosario mianay
+post earthquake,not urgent bag-otan,maghan-ay
+post wind,urgent,gerali rizal
+post fire,urgent,san agustin mataasnakahoy
+post brownout,not urgent,alongong namaltugan
+post health,urgent,poblacion 2 san isidro
+post landslide,urgent,pandayan upper maton
+post brgy,not urgent,napok buton
+post flood,not urgent,villa nava maralag
+post fire,not urgent,cogon manayupit
+post fire,urgent,bugtong na buli laguinding
+post accident,not urgent bolibol,tagpopongan
+post accident,not urgent,sinamar norte banonong
+post earthquake,not urgent,quintina bagong pook
+post flood,not urgent barangay 789,riantaran
+post road,urgent,barangay 3 san jose
+post road,not urgent,lantawan proper tamayong
+post accident,urgent,kisek canjulao
+post brownout,not urgent,san antonio little tanauan
+post earthquake,not urgent,timmaguab barangay 637
+post flood,not urgent napok,amadeo
+pest health,not urgent,motherlode mahabang dahilig
+post eco,oac,urgent dalupirit,mitugas
+post relief,urgent,eastern poblacion linmansangan
+post rescue,not urgent lipay-dingin-panibuatan,ingay
+post wind,not urgent,bugho central
+post bridge,not urgent upper maton,santo niño
+post flood,not urgent,montilla diegas
+post relief,urgent,betaog lusacan
+post bridge,not urgent,poblacion ii nabulao
+post brgy,not urgent,baguio sabang
+post earthquake,not urgent saint francis,bagong silang
+post fire,not urgent,hunan telbang
+post health,not urgent,santol mabini
+post road,urgent,bo. militar santa cruz
+post brgy,urgent,maria military cut-off
+post brownout,urgent,casili candelaria
+post brownout,not urgent,liong poblacion
+post brgy,urgent,malingin magkakaibigan
+post landslide,urgent,catburawan salcedo ii
+post wind,not urgent,quezon makati city
+post brgy,not urgent,sambolawan sinipak
+post rescue,urgent,laurel bacungan
+post brgy,urgent,sagaosawan justiniana edera
+post relief,urgent,butac assumption
+pest fire,not urgent,barangay  98 poblacion  61
+post accident,urgent,tuka paghuliran
+post brgy,not urgent bulit,san jose
+post brownout,not urgent omaganhan,dinganun guilopa
+post road,urgent,maan zone ii
+post health,urgent,gupa liliw
+post rescue,urgent,amoslog minuswang
+piot accident,not urgent,talas vinisitahan,-nadao
+post sebac,urgent,little venice uyao
+post health,not urgent,bakilid san francisco
+post fire,not urgent,marigne upper pangangkalan
+post health,not urgent,racotan barangay 736
+post health,not urgent,santo niño ii san agustin
+post health,urgent,anis looc
+post accident,urgent,aragon banco
+post evacuate,new salvacion,nasipit
+post fire,not urgent timawa tanza i,magsaysay
+post flood,not urgent,san antonio basagan
+post bridge,not urgent matulatula,barangay 779
+post brgy,urgent,santa cruz langaon
+piot road,not urgent,batitao lizon valley
+post rescue,urgent,san francisco sur barangay  6
+post road,urgent,south poblacion ibayugan
+post brgy,urgent,banaybanay i bauko
+post bridge,urgent,rosalim tiglawigan
+post rain,urgent,hingotanan east pindangan 1st
+post bridge,urgent,montible zone i
+post rescue,urgent,sogod-simamla tugos
+post brgy,not urgent,wawa i bagong lipunan ng crame
+post brgy,not urgent dinawehan,santa  cruz
+piot accident,not urgent,ferreras indangan
+post health,urgent,kay duke panacan
+post bridge,not urgent,san agustin caima
+post brownout,urgent,teppeng caloocan
+post rescue,not urgent,tulangan gitnang barrio
+post rain,not urgent,pulang lupa barangay v
+post wind,not urgent,cabangcalan rawis
+post rescue,not urgent palaris,banahaw
+post earthquake,urgent,barangay 3 paciencia
+piot flood,urgent,linao malomboy
+post landslide,not urgent,capuluan tulon ipil
+post relief,not urgent,segatic diot timalan concepcion
+post flood,urgent,santo rosario nabundas
+post road,urgent,calanay san nicolas
+post health,urgent,bagacay ngoso
+post brownout,urgent,sabang calangay
+piot relief,urgent,gaba kinamantirisan
+post rescue,not urgent paridi,tongo
+post rain,urgent,mapulang daga burol
+post landy,pide,not urgent lanot,da-an norte
+post rain,not urgent tanap,sulangan
+post landslide,urgent,orquia loob
+post rain,urgent,bagulin bislig
+post rain,not urgent,kilada baluarte
+post accident,urgent,suyo barit,kao
+post rain,not urgent,langcangan lower poro
+post bridge,not urgent,poblacion san miguel
+post accident,not urgent,bolintaguen navalita
+post oro,ino,not urgent pagolingin west,poblacion north
+post accident,urgent,numancia san joaquin
+post rescue,not urgent baculod,sapang
+post bridge,urgent,camp iv bugabuga
+post road,not urgent,manat baac
+post rain,urgent,kapatan barangay 157
+post flood,not urgent,kibungsod bangar
+post rescue,urgent,pamplona burgos
+post brgy,not urgent,tagukon valencia city
+post rain,not urgent nailon,cambatong
+post brgy,not urgent,san roque caburihan
+post orani,urgent,baran oga,y  4mateo
+post bridge,urgent,macutay dampias
+post health,not urgent,okoy barangay ii
+post rain,not urgent,san julian west tigbao
+post bridge,urgent,cambansag balante
+post rescue,not urgent barangay 699,pinagdilawan
+post relief,urgent,bankal dalayawon
+post fire,urgent,calunetan bagakay
+piot health,urgent,pangaylan-ip san vicente
+post earthquake,not urgent,san francisco b babanuang
+post heat,not urgent,rawis lt. bilag
+post road,not urgent,wayang bulihan
+post rescue,urgent,balatong a cadoldolan
+post wind,urgent,pinagsanjan palusapis
+post road,not urgent camandao,lusacan
+post rain,urgent,bua rang-ay,374central
+post rain,not urgent,barangay 13-b tabon
+post flood,not urgent,tong tampakan sisimon
+post wind,not urgent,linoc cinense
+post landslide,not urgent,baligatan santa visitacion
+post wind,not urgent,nalasin west poblacion
+post rain,urgent,catanagan saputan
+post brgy,urgent,quirino hil cabac
+post rescue,urgent,mimbuaya caulisihan
+post wind,not urgent,utanan barangay 62
+post oac,pide,not urgent barangay 13,san roque
+post flood,urgent,san miguel bayabason
+post accident,urgent,la libertad bulang
+mostro not urgent,gomez,labinab grande
+piit earthquake,not urgent santa lucia,barangay 175
+post rain,urgent,lilingayon barangay  31
+post health,not urgent,maite barangay  82
+post wind,urgent,luga vical
+post brownout,urgent,linda ungap,liss
+post brownout,not urgent manlot,bagoaingud
+post relief,not urgent,illuru norte carmen
+post brgy,urgent,sacsac bualan
+post earthquake,not urgent,don montano buyo
+post health,urgent,laitan cancatac
+post wind,not urgent,san nicolas bingawan
+post bridge,not urgent san roque,rizal
+post earthquake,not urgent barangay 701,cafe
+potia earthquake,urgent,bagunot san gabriel
+post landslide,not urgent villa beltran,santo domingo
+post health,urgent,alac macawayan
+post fire,not urgent,savidug santa maria
+post flood,urgent,coring lab-on
+post relief,not urgent lubnac,barangay 60
+post brownout,not urgent,maddela paniongan
+post wind,urgent,talecabcab bilibigao
+post rain,not urgent benteng-sapilang,tuka
+post brownout,urgent,pulawan lawigan
+post brownout,urgent,tongsinah cinense
+post flood,urgent,bayog llavac
+post brownout,not urgent,manering kabac
+post relief,urgent,marquez norzagaray
+post not urgent,bacolod grande,tuyo
+post bridge,not urgent matanubong,bagakay
+post beray,urgent,gella central
+post landslide,not urgent san vicente,bubog
+post health,not urgent mapangpang,fatima
+rosal flood,urgent,dilabayan pinaopawan
+post relief,urgent,masjid punjungan bgy. no. 4
+post rain,urgent,poblacion masula
+post brownout,not urgent,tagum city mercedes
+post not urgent,waterloo,kaluntay
+post health,not urgent,cantigdas ward iii
+post flood,urgent,quezon magtibay
+post landslide,not urgent,binodegahan hindi
+piit accident,urgent,murong tarum
+post wind,urgent,bgy. 8 pob. balorinay
+post brgy,not urgent,parulan sampaloc
+post landslide,not urgent,balud papaya
+post bridge,urgent,bonga rebucon
+post rain,urgent,libertad alibayon
+post rain,not urgent san juan,bito-on
+root rescue,urgent,cawayanin ilaya mercedes
+post brownout,urgent,new calinog lanao dakula
+post road,urgent,anahawan cataban
+post health,urgent,talacsan tulay,an siland
+post rescue,urgent,tamporong biniray
+post landslide,urgent,piña santa cruz
+post wind,not urgent,merville yapad
+post health,urgent,san quintin hadji imam bidin
+post fire,urgent,alegria basac
+post health,not urgent,janiuay lamcade
+post road,urgent,bagong silang taldiapan
+post evacuate,villegas,cabantog
+piot earthquake,not urgent,namuken san jose
+post fire,urgent,bocboc east ganasi
+post owac,urgent,bikal caridad
+post accident,not urgent,r.m. magbalon cabunlawan
+post brownout,urgent,naguirayan aurora
+post brownout,not urgent,san pascual san jose
+post iraan,urgent,jolongajog binabag
+post brownout,not urgent,padre burgos cafe
+post flood,urgent,talolong real
+post flood,not urgent,polot-an lingay
+post evacuate,not burgos rorogagus proper
+root flood,not urgent,masigla bunot
+post rescue,urgent,barangay zone  vi upper bato-bato
+post brownout,not urgent,ilog-bulo aurora
+post fire,urgent,palompon manggahan
+post health,urgent,barangay 293 bonbon
+post bridge,not urgent,bonbonon sinippil
+post wind,urgent,cambasi manan-ao
+post fire,urgent,bagong tanza tangbo
+post bridge,not urgent,magsaysay tampus
+post rain,urgent,barangay 522 barangay no.  7
+post fire,urgent,esperanza tampac i,i& iii
+post road,not urgent,payatas ingas
+post wind,urgent,pindolonan sampaloc i
+post evacuate,nusa,lati tampo
+post rescue,not urgent,barangay  86 santo domingo 2nd
+post earthquake,not urgent barangay 183,liwanag
+post ora,not urgent,centro west maytalang ii
+post evacuate,taguite,pangobilian
+post evacuate,natu,bubog san vicente
+post landslide,not urgent,binitinan gaggabutan west
+post macamot,urgent,lapu-lapu calzada
+post brownout,urgent,duggo macaleeng
+pest earthquake,not urgent,bantud salvacion
+post brownout,urgent,barangay 101 binahian c
+post earthquake,urgent,dinaga cacao
+post health,not urgent,apasan paulog
+post fire,urgent,cadulawan suquib
+post wind,urgent,canlupao bugnay
+post rain,not urgent,linmansangan rorogagus proper
+post brownout,not urgent,panique mabuhay
+post bridge,not urgent bonot,nangan
+post relief,not urgent,alejandra navarro poblacion
+post rescue,urgent,montiaan san jose
+post brgy,not urgent,barangay 49-a santa cruz
+porot fire,urgent,caestebanan san simon
+post brownout,not urgent,novaliches mendiola
+post rescue,urgent,barangay 6 santo niño
+post flood,not urgent,prinza pob. poblacion molo
+post accident,not urgent,pinugay barangay  20
+post flood,not urgent lucob,catig
+post flood,not urgent,south poblacion maasin
+post landslide,not urgent,tagbon sambulawan
+post rescue,urgent,gordon palahanan ii
+pest brownout,not urgent,agmanaphao matin-ao
+post flood,not urgent caramutan,san andres
+post flood,not urgent,bagani tocgo santa cruz
+post accident,not urgent,nasuli c biga
+post earthquake,not urgent,valencia san jose mesulo
+post relief,urgent,dugmanon lodiong
+post wind,urgent,tacloban city austin heights
+post brgy,urgent,casulucan managa
+post wind,not urgent tipacan,polayo
+post brgy,not urgent,abucayan legarda-burnham-kisad
+post rescue,not urgent,santa maria dalena
+post fire,urgent,bagong pook vi-c barangay  7-a
+post health,not urgent,barangay tuy-a,minalin
+post bridge,urgent,bohol maabay
+post road,not urgent jalandoni-wilson,barang,aky 166
+post brgy,urgent,agloloway pangao-aoan west
+post fire,not urgent villa boado,tobgon
+post brownout,urgent,barangay v-a minien west
+post fire,not urgent barangay 858,tabud
+post bridge,not urgent north poblacion,pakol
+post fire,not urgent,barangay 17 magsaysay
+post brgy,not urgent botong,carangian
+post wind,urgent,zumarraga tanggal
+post flood,not urgent bobo,losa,nnew aklan
+post wind,urgent,mabilog na bundok alitap
+post fire,not urgent,timan la paz
+post earthquake,urgent,ynaguingayan mataluto
+post accident,urgent,bon-ot daguma
+post road,urgent,bagong sikat villa hiwasayan
+post accident,urgent,rueda barangay 103
+post orani,not urgent,lourdes lemon
+post earthquake,not urgent,binolosan pequeño ilaya
+post road,not urgent talisay city,buenasuerte
+post road,urgent,maligaya barangay poblacion  5
+post brgy,not urgent centro ii,cansague norte
+post relief,urgent,gimenarat west san jose
+post brownout,urgent,poblacion urdaneta city
+post brgy,urgent,mabini minantok silangan
+post health,urgent,dinalupihan tucalan passing
+post wind,urgent,corazon sorsogon city
+post rescue,not urgent pandan,barangay 340
+post road,urgent,poblacion timbayog
+post health,urgent,new taligue masa,bliang
+post road,urgent,tinib palaka norte
+post not urgent,comembo,tangub
+post relief,urgent,linao songkoy
+post bridge,not urgent,barangay santa fe
+pest accident,not urgent,masaya sur gaang
+post relief,not urgent banilad,joyao-joyao
+yocti relief,not urgent,santa cruz gavino maderan
+post landslide,not urgent,barangay 376 camuning
+post fire,not urgent,matandang siruma odiongan
+post accident,urgent,barangay 106 san francisco
+post flood,not urgent,isagani magsaysay
+post aring,not urgent,baybay dimasalansan
+post earthquake,urgent,kapinpilan parsolingan
+post rescue,not urgent,matiporon melojavilla
+post earthquake,not urgent,malalan simbahan
+post brownout,not urgent,muñoz city monte alegre
+post accident,urgent,cogon burabod
+post earthquake,urgent,barangay  90 buenavista
+post earthquake,not urgent,barangay 17-b itum
+losa accident,urgent,bayo laoag
+post brownout,urgent,bugas sumagdang
+post road,not urgent,dadiangas south catulin
+post health,urgent,bobon 2nd cappa-cappa
+post fire,urgent,cabug barangay 7
+post landslide,not urgent,san isidro manga
+post wind,not urgent cairohan,balogo
+post brgy,urgent,ilog-bulo barangay 478
+post wind,urgent,catarman poblacion
+post fire,urgent,kagbana ili
+post rescue,urgent,san miguel san jose
+post rescue,not urgent,barangay 194 diegas
+post not urgent,amaya i,poblacion
+post brgy,urgent,quilib loma
+post evacuate,canlangit,hitapi-an
+post rain,not urgent imelda,muñoz west
+post fire,not urgent,ariendo libo-o
+post fire,urgent,palali norte dulay
+post bridge,urgent,garganera dongcoan
+pest health,not urgent,ambuan lallayug
+piut bridge,urgent,lita rebong
+pest brownout,urgent,amalbalan maloma
+potot health,urgent,angare san ignacio
+post fire,urgent,kisolon bungabong
+post relief,not urgent,bacsil aniog
+post rescue,not urgent,talisay jilocon
+post relief,not urgent lanna,la paz
+post accident,urgent,union mandasig
+post health,urgent,pototan bae
+post bridge,urgent,isidro d. tan lacturan
+post road,urgent,poblacion barangay 1 post
+post earthquake,urgent,tobuan barangay 344
+post evacuate,barangay 11,lapakan
+post fire,urgent,buenavista gadung
+post bridge,not urgent calabasa,bago city
+post earthquake,not urgent,bae bangad centro,banahao
+post brgy,not urgent,port holland zone i pob. aliwanay
+post health,not urgent,buenaflor san juan
+post health,not urgent,maliksi i tucop
+post health,not urgent,pag-asinan milan
+potot fire,not urgent,calube calawisan
+post rain,urgent,pilit alinawan
+post fire,not urgent,sinaoangan sur coralan
+post brownout,urgent,poblacion barangay b
+post wind,not urgent,matiompong antonio canao
+pest fire,not urgent,cozo bacong
+post relief,urgent,pagatpat esperanza ii
+post elcano,not urgent,concepcion tambongon
+post rain,urgent,daan-lungsod bambang
+post brownout,urgent,lawak langka la suerte
+post rescue,urgent,maguirig santa cruz
+post rescue,urgent,bumbaran new nazareth
+post landslide,urgent,canhumadac duran
+post fire,not urgent,malakdang sua,o
+post bridge,not urgent masalasa,owak
+post rescue,not urgent,calpi atsan,lipakan
+post relief,urgent,poblacion barangay  8 caluangan
+post accident,not urgent,tiniente tiago san isidro
+post earthquake,urgent,cambasi paco roman
+fort rescue,not urgent,tacub pastrana
+post earthquake,urgent,magtaon amomonting
+post brownout,not urgent,gaudencio antonino muraya
+post health,urgent,landoc barangay 308
+post brgy,urgent,barangay  94 santa rita west
+post wind,not urgent cuancabal,bonbon
+post landslide,not urgent,poblacion west diclum
+post brgy,urgent,rizal norte barangay 17-b
+post accident,not urgent,buadiawani villahermosa
+post landslide,urgent,santol raya buadi barao
+post accident,urgent,balumbunan san pedro
+post flood,urgent,aragon villahermosa
+post rain,urgent,maligaya poblacion
+post earthquake,not urgent,tabunan iniligan
+post fire,not urgent,langgam san lorenzo
+post accident,urgent,cambagahan central east
+post rescue,not urgent,tabang barongis
+post flood,urgent,bonbon lower santo niño
+post bridge,urgent,paykek poro
+post riang,urgent,barangay 39 poblacion
+post brgy,not urgent,talogtog cabungahan
+post rain,not urgent,barangay 238 barangay 12
+post relief,not urgent,salvacion san eugenio
+post bridge,urgent,paridi angancasilian
+post rain,urgent,malongcay diot tugop
+post rain,not urgent,bugtong naulid guinabonan
+post health,not not urgent sugsugin,afga
+post accident,urgent,datagan tinago
+post brgy,urgent,pandan garang,ay 40
+fort relief,not urgent,amorogtong bayan-bayanan
+post rain,not urgent,sangat palagao sur
+post brownout,not urgent,maular poblacion
+post landslide,not urgent,durian san isidro
+post road,not urgent,domorog santo niño
+post accident,not urgent,cabit awa-an
+post evacuate,balocawe,tangcal
+post accident,not urgent,inicbulan poblacion   i-b
+post rain,urgent,pagayonan niño jesus
+post flood,not urgent,mamala javellana
+post accident,not urgent,polangi ibayo estacion
+post wind,not urgent,tigbawan montible
+post bridge,not urgent,tigum gulangan
+post health,urgent,simbangon piniglibano
+post fire,not urgent,maguing proper barangay 903
+post road,urgent,nusa-nusa bara-as
+post earthquake,urgent,lantuyang paco
+post accident,not urgent,fabrica amazion
+post brgy,urgent,palma gil tambojangin
+potia accident,not urgent,pajo banadero
+post accident,urgent,san jose patao
+post road,not urgent mabalite,little tanauan
+post road,not urgent,ondoy pili
+post aring,urgent,bobon b bgy. 20 - cabagñan east
+post wind,not urgent san cornelio,san roque
+post accident,urgent,bayanihan jubang
+post landslide,not urgent aragon,talisay
+post health,urgent,santo niño pag-asa
+post wind,not urgent,poblacion west tenga manubul
+post fire,not urgent,molugan kiraging
+post brgy,urgent,caingin pob. alawijao
+post health,not urgent,baldoc nagbukel-tuquipa
+post brownout,urgent,katipunan dine
+post earthquake,urgent,medina hilamonan
+post accident,not urgent santa barbara,indangan
+post fire,not urgent,lower itil mabilo ii
+post fire,not urgent,barangay  1 san jose
+post fire,not urgent,patungcaleo balok
+post flood,urgent,marannao tamdagan
+boston brownout,not urgent,lamut villarico
+post brownout,urgent,kahayagan balaybay
+post brownout,not urgent,magdalena bugnay
+post wind,urgent,cautod catomag
+post not urgent,paliparan ii,campo muslim
+post brownout,not urgent,bongco dao,igue
+pest rain,not urgent,balut ii pilar
+post flood,urgent,cabayu bautista
+post brgy,not urgent,kenebeka bongbong
+post earthquake,not urgent santa rita,t. l. padilla pob.
+post flood,urgent,mapagong binanuahan
+post brgy,not urgent,san pedro ferdinand e. marcos pob.
+post fire,not urgent,sumilang bagumbayan
+post earthquake,not urgent chimenea,pilaring
+post earthquake,not urgent,salvacion barangay 688
+post brgy,not urgent,olango ilian
+post fire,not urgent,turod rogan tandiong dimayon
+post landslide,not urgent,bagumbayan rosary heights viii
+post rain,urgent,poblacion norte novallas
+post bridge,urgent,tagpo cuta
+post not urgent,villa paz,hinabangan
+potot heat,laur,san vicente mayao kanluran
+pocto rescue,not urgent,caridad dampil
+post health,not urgent,tawid bitaog can-adieng
+post bridge,not urgent villa victoria,anislag
+post road,urgent,banaba tagaytay
+post accident,urgent,kalang nambucayan
+post brgy,not urgent,poblacion pinagtubigan este
+post fire,not urgent,caranas kiamba
+post masin,urgent,bical santa cruz
+post relief,urgent,igpalge mabini
+post brgy,urgent,gayondato poblacion
+post road,urgent,barangay  27 tagbina
+post bridge,urgent,minanga macalaoat
+post rain,not urgent,cabulihan ilaya santa cruz
+post wind,not urgent magulon,calabanit
+post landslide,urgent,mulao mantailoco
+post wind,urgent,agos san nicolas
+post landa,pide,urgent navotas,bantug
+post health,urgent,san francisco san jose
+post landslide,not urgent,bulawan jr. santa eulalia
+post brownout,not urgent,cayagan tinampo
+post bridge,not urgent,balite amaga
+pest earthquake,urgent,ilian dalayawon
+post relief,ueg,san vicente san vicente
+post flood,urgent,batuan toril
+post accident,urgent,barangay 8 barangay zone i
+post brgy,not urgent,japay salisay
+post fire,not urgent,mabuhay maligaya
+post wind,urgent,san esteban tuburan
+post flood,urgent,bayoyong kabalasan
+post brgy,urgent,libertad sur astorga
+post rain,urgent,pindolonan cabalayongan
+post rescue,not urgent,sawa pagayawan
+post relief,urgent,basagan dao
+post earthquake,not urgent,alawihao binduyan
+post accident,urgent,cadawag talahib
+post accident,urgent,gerona san antonio
+post rain,urgent,pinagkaisahan libo
+post accident,not urgent,amduntog barangay  viii
+post earthquake,urgent,san jose san roque
+post health,urgent,getulio villaflor
+post flood,not urgent,banah bagong bayan
+post brownout,urgent,matindeg cantam-is bago
+post earthquake,not urgent,milagrosa limbahan
+post elcano,urgent,calvario calaba,ndit
+post bridge,urgent,lindang alijis
+post brgy,urgent,bagumbayan poblacion
+post flood,not urgent,pantalan nabaye camp 7
+post wind,not urgent,poblacion b helen
+post bridge,urgent,canan norte loreto
+post wind,urgent,ticugan poblacion zone  3
+post not urgent,senonogan de tubang,eastern poblacion
+post brownout,urgent,guruyan zaragoza
+post earthquake,not urgent,tibacan santol,kan
+post bridge,urgent,macabito liyubud
+post accident,not urgent,la paz carusocan
+post evacuate,nacalma,ando kanghumaod
+post flood,ano,not urgent mabalite,san mignel
+post vega,urgent,langca rizal
+post relief,not urgent,san roque jubasan
+post wind,not urgent,lalo barangay  9 poblacion
+post rescue,not urgent,bubong-dinaig cubay sur
+post health,not urgent pongol,bonifacio
+post flood,not urgent,bansag bongloy
+post brownout,urgent,malapoc salvacion
+post landslide,not urgent santa ines,lawang
+post accident,not urgent,lapu lapu,san miguel
+post brownout,urgent,gines cogon
+post bridge,not urgent san miguel,san vicente
+post brgy,not urgent,ampayon poblacion
+post relief,urgent,sapang dalaga langtad
+post health,urgent,barangay  4 barangay  4
+post not urgent,del carmen,zone v
+post road,urgent,del rosario camarag
+post road,not urgent new isabela,buenavista
+post landslide,urgent,balatubat san jose
+post flood,not urgent,maxingal tagubong
+post wind,urgent,doldol zone i
+post bridge,urgent,candabong san vicente
+post flood,urgent,tambac pitpitac
+post brownout,urgent,haring abra,salon
+post cueva,urgent,barangay  30 tiguha
+post rescue,not urgent,sipalay city tinang
+post flood,urgent,rincon balas
+post not urgent,datu panas,magsaysay
+piot flood,urgent,dulig san andres
+post bridge,not urgent daang amaya ii,kudanding
+post health,not urgent,barangay  56 san nicolas
+post accident,urgent,union banisilon
+post health,not urgent,san andres ii burabud
+post health,not urgent,poblacion catungan  ii
+post earthquake,not urgent,lower campo islam panikian
+post earthquake,not urgent,bontoc songcolan
+post brownout,urgent,mariana camachilihan
+post landslide,urgent,kabuluan norala
+post earthquake,not urgent,asturias catoto-ogan
+post not urgent,olera,kalang-kalang
+post fire,urgent,banucagon munting mapino
+post landslide,not urgent,igpandan upper de la paz
+post rescue,not urgent,aglibacao san juan
+post landslide,urgent,san jose san ambrosio
+post road,urgent,poblacion nalkan
+post luac,not urgent,barangay 107 tuburan
+post landslide,urgent,pasol legleg
+post earthquake,urgent,paagan siagao
+post rescue,not urgent,poblacion barangay 2
+post bridge,not urgent,magsaysay deborok
+post fire,urgent,santa rosa cabayaoasan
+post not urgent,tambisan,daet
+post wind,not urgent,tunga pob. caguiba
+COMPUTATION TIME: 208.904 seconds
