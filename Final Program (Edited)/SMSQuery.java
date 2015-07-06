@@ -8,7 +8,8 @@ public class SMSQuery {
 
 	final static int THRESHOLD = 3;
 	final static String JDBC_DRIVER = "org.postgresql.Driver";
-	final static String DB_URL = "jdbc:postgresql://localhost:5432/";   //jdbc:postgresql://staging.ebayanihan.ateneo.edu:5432/";
+	//final static String DB_URL = "jdbc:postgresql://localhost:5432/";   
+	final static String DB_URL = "jdbc:postgresql://staging.ebayanihan.ateneo.edu:5432/";
 	final static String db_name = DB_URL + "stg_ebayanihan";
 	final static String user = "devuser0";
 	final static String pass = "devuser0";
@@ -111,7 +112,7 @@ public class SMSQuery {
 			params.put("received_at","");
 			params.put("source","");
 			int count = 0;
-			for(int i=0; i<=4; i++)
+			for(int i=0; i<4; i++)
 			{
 				String temp = "";
 
@@ -124,12 +125,12 @@ public class SMSQuery {
 					}
 					temp = tokens[i]; 
 				} 
-				if(i==2)
-				{
-					i++;
-					if(i<tokens.length)
-						temp += " " + tokens[3];
-				}
+				// if(i==2)
+				// {
+				// 	i++;
+				// 	if(i<tokens.length)
+				// 		temp += " " + tokens[3];
+				// }
 				params.put(par[count],temp); 
 				count++; 
 			}
@@ -219,7 +220,7 @@ public class SMSQuery {
 				conn = DriverManager.getConnection(db_name,user,pass);
 				stmt = conn.createStatement();
 				while(true){
-					String toProcess = "SELECT * FROM raw_sms_messages";
+					String toProcess = "SELECT * FROM raw_sms_messages WHERE is_processed = \'unprocessed\'";
 					ResultSet rs = stmt.executeQuery(toProcess);
 					while(rs.next()) {
 						String status = rs.getString(6);

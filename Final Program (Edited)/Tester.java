@@ -23,11 +23,11 @@ public class Tester
 			//POST,Landyslideurgent,ECHAGUE,Road
 			//System.out.println(Arrays.toString(arr));
 			String[] arr = ws.wordBreak(temp.trim(),3);
-			System.out.println(arr.length);
-			for(int i=0; i<arr.length; i++)
-				System.out.print(arr[i] + "|");
-			System.out.println();
-			out.println(form.format(arr));
+			// System.out.println(arr.length);
+			// for(int i=0; i<arr.length; i++)
+			// 	System.out.print(arr[i] + "|");
+			// System.out.println();
+			out.print(form.format(arr));
 			out.flush();
 		}
 		long endTime = System.currentTimeMillis(); 

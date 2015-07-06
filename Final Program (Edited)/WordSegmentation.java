@@ -8,6 +8,7 @@ public class WordSegmentation{
     private static String SPACE = " ";
     private static int minLength, maxLength;
     private static double alpha = 1.0;
+    private static HashSet<String> noCount; 
 	
 	public WordSegmentation()
 	{
@@ -15,6 +16,12 @@ public class WordSegmentation{
 		try{
 			trie = reader.readTrie("brgycitymuni.out");
 		}catch(Exception e) {}
+
+		noCount = new HashSet<String>();
+		noCount.add("city");
+		noCount.add("island");
+		noCount.add("town");
+		noCount.add("not");
 	}
 	
 	public static String[] wordBreak(String query, int threshold){
@@ -50,7 +57,7 @@ public class WordSegmentation{
 				//System.out.println(edit);
 				if(edit.equals(" ") || edit.equals("")) continue;
                 list.add(edit);
-				if(!edit.equals("city") && !edit.equals("not")) 
+				if(!noCount.contains(edit.toLowerCase())) 
 					tokCount++; 
             }
             query = quer;
