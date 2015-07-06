@@ -1,10 +1,10 @@
 import java.util.*;
 import java.io.*;
 /**
-* The TrieBuilder class allows the system to preprocess the dictionary into
-* a Trie data structure. Since the list of cities, barangays, and municipalities
+* The <tt>TrieBuilder</tt> class allows the system to preprocess the dictionary into
+* a {@link Trie} data structure. Since the list of cities, barangays, and municipalities
 * along with the SMS keywords are not expected to change very often, we precompute
-* the Trie structure and output it into a text file to minimize the overhead in
+* the <tt>Trie</tt> structure and output it into a text file to minimize the overhead in
 * case the server might need to restart.
 *
 */
