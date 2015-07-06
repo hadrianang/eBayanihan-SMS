@@ -5,7 +5,7 @@ public class Tester
 	public static void main(String[]args) throws Exception
 	{
 		TrieReader reader = new TrieReader();
-		TrieAlt trie = reader.readTrie("brgycitymuni.out"); 
+		Trie trie = reader.readTrie("brgycitymuni.out"); 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in,"UTF8")); 
 		PrintStream out = new PrintStream(System.out,true,"UTF-8"); 
 		WordSegmentation ws = new WordSegmentation(); 

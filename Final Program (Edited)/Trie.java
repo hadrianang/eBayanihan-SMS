@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class TrieAlt
+public class Trie
 {
 	private Node[] graph; 
 	private Node root; 
@@ -13,7 +13,7 @@ public class TrieAlt
 	private static double alpha = 1.0;
 	private static int maxLCS; 
 	private static int minEdit; 
-	public TrieAlt(Node[] graph)
+	public Trie(Node[] graph)
 	{
 		visCount = -1; 
 		this.graph = graph;
