@@ -237,7 +237,7 @@ public class Trie
 					maxScore = sc; 
 					index = i; 
 					cutPoint = child;
-					System.out.println(query + " " + backTrack(child.getId()) + " " + backTrack(cutPoint.getId()) + " " + sc + " " + maxScore + " " + index);
+					//System.out.println(query + " " + backTrack(child.getId()) + " " + backTrack(cutPoint.getId()) + " " + sc + " " + maxScore + " " + index);
 				}
 				
 			}
