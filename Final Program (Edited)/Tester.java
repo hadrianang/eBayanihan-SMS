@@ -1,5 +1,10 @@
 import java.util.*;
 import java.io.*;
+
+/**
+* The <tt>Tester</tt> class is a debugging class made to check the 
+* intermediate steps during the wordBreak method.
+*/
 public class Tester
 {
 	public static void main(String[]args) throws Exception

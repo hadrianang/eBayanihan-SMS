@@ -1,5 +1,13 @@
 import java.util.*;
 import java.io.*;
+
+/**
+* The <tt>WordSegmentation</tt> class is responsible for the parsing and
+* correcting of the SMS messages given a {@link Trie} object. The approach
+* used by the <tt>WordSegmentation</tt> class is a greedy method that maximizes
+* the string length that maximizes the score assigned to it based on its LCS and
+* Edit Distance values. 
+*/
 public class WordSegmentation{
 
 	private static TrieReader reader;
@@ -10,6 +18,9 @@ public class WordSegmentation{
     private static double alpha = 1.0;
     private static HashSet<String> noCount; 
 	
+	/**
+	* Initializes the variables needed by the class. 
+	*/
 	public WordSegmentation()
 	{
 		reader = new TrieReader();
@@ -24,6 +35,15 @@ public class WordSegmentation{
 		noCount.add("not");
 	}
 	
+	/**
+	* The wordBreak method performs the greedy algorithm to split the SMS into
+	* tokens and correct them at the same time. It calls the <tt>computeDP</tt>
+	* method of the <tt>Trie</tt> class.
+	* 
+	* @param query The query string or the SMS text.
+	* @param threshold The threshold value that limits the search space.
+	* @return The String array containing the corrected tokens.
+	*/
 	public static String[] wordBreak(String query, int threshold){
         ArrayList<String> list = new ArrayList<String>();
        	

@@ -1,8 +1,10 @@
 import java.util.*;
 import java.io.*;
 /**
-* The <tt>StatChecker</tt> 
-*
+* The <tt>StatChecker</tt> class is another one of the debugging tools
+* developed for the system. It is used in conjunction with a Generator
+* program that randomizes test cases. The StatChecker compares the 
+* WordSegmentation output to the answer key and reports how accurate it is.
 */
 public class StatChecker
 {

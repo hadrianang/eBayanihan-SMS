@@ -1,6 +1,17 @@
 import java.io.*;
 import java.util.*;
-
+/**
+* The <tt>Trie</tt> class is the underlying data structure for the
+* dictionary of the system. It is composed of {@link Node} objects
+* in a special tree structure that allows quicker dictionary search
+* and retrieval.
+* <p> The <tt>Trie</tt> structure executes fuzzy searching in the 
+* dictionary by using Dynamic Programming (DP) algorithms and
+* memoization tables to reuse computation results from previous
+* substrings. The tree structure further optimizes this DP approach
+* by allowing the memoization table to be split up into rows. We store
+* each of these rows in each <tt>Node</tt> object.
+*/
 public class Trie
 {
 	private Node[] graph; 
@@ -12,7 +23,14 @@ public class Trie
 	private static Node cutPoint; 
 	private static double alpha = 1.0;
 	private static int maxLCS; 
-	private static int minEdit; 
+	private static int minEdit;
+
+	/**
+	* Creates a Trie object using a Node array.
+	* 
+	* @param graph The Node array that contains the graph of the 
+	*  Node objects that make up the Trie
+	*/
 	public Trie(Node[] graph)
 	{
 		visCount = -1; 
@@ -22,41 +40,21 @@ public class Trie
 		index = 0; 
 		cutPoint = root;
 	}
-	
+	/**
+	* Resets the visited counter to its default value.
+	*/
 	private void resetViscount()
 	{
 		visCount = -1; 
-	}	
-	
-	public Integer[] getMaxMin(){
-		Integer[] ret = new Integer[2];
-		int min = Integer.MAX_VALUE;
-		int max = Integer.MIN_VALUE;
-		ArrayDeque<Node> queue = new ArrayDeque<Node>();
-		root.setDepth(0);
-		queue.offer(root);
-		while(queue.size()>0){
-			Node cur = queue.poll();
-			int depth = cur.getDepth();
-			if(cur.getVis()==visCount) continue;
-			if(cur.getName()=='$'){
-				if(depth<min) min = depth;
-				if(depth>min) max = depth;
-			}
-			Iterator<Node> iter = cur.getChildIterator();
-			while(iter.hasNext()){
-				Node temp = iter.next();
-				temp.setDepth(depth+1);
-				queue.offer(temp);
-			}
-		}
-		visCount++;
-		ret = new Integer[2];
-		ret[0] = min;
-		ret[1] = max;
-		return ret;
 	}
 
+	/**
+	* The Trie's implmentation of exact string matching in a dictionary.
+	* 
+	* @param query The search string that will be searched in the Trie.
+	* @return True if the query string was found in the Trie; False if
+	*  otherwise.
+	*/
 	public boolean contains(String query)
 	{
 		Stack<Node> stack = new Stack<Node>(); 
@@ -95,6 +93,19 @@ public class Trie
 		return false; 
 	}
 	
+	/**
+	* This method is used to compute the values of the DP memoization
+	* tables in the Node objects given a query string. The algorithm
+	* is optimized by pruning the search and computation space by
+	* providing a threshold value so that the program does not compute
+	* the values for substrings that are "too far" from the query string.
+	* The output of this method is the cut point Node and string index of
+	* the word in the dictionary that contains the highest score.
+	* 
+	* @param query The query string to be used.
+	* @param threshold The threshold value which will limit the computation.
+	* @return An object array containing the cut point Node and string index.
+	*/
 	public Object[] computeDP(String query, int threshold)
 	{
 		maxScore = -1; 
@@ -146,12 +157,14 @@ public class Trie
 		visCount++; 
 		return ret; 
 	}
-	
-	public static ArrayList<Node> getWords()
-	{
-		return words; 
-	}
 
+	/**
+	* This method "backtracks" up the Trie to rebuild the dictionary
+	* word that is represented by the Node sequence.
+	* 
+	* @param id The ID of the Node object at the end of the word.
+	* @return The rebuilt String that the Node sequence represents.
+	*/
 	public String backTrack(int id)
 	{
 		StringBuilder sb =  new StringBuilder(); 
@@ -165,7 +178,18 @@ public class Trie
 		return sb.reverse().toString(); 
 	}
 	
-	
+	/**
+	* This method computes the individual DP memoization arrays of a
+	* certain Node object given its parent Node and the query string.
+	* The computeArray method returns the cut point Node and string 
+	* index with the highest score.
+	* 
+	* @param par The parent Node object.
+	* @param child The child Node whose DP tables will be computed.
+	* @param query The query string needed for the computation.
+	* @return An Object array containing the cut point Node and string
+	*  index.
+	*/
 	private Object[] computeArray(Node par, Node child, String query)
 	{
 		int[] parLcs = par.getLcsRow(); 
@@ -223,6 +247,14 @@ public class Trie
 		return ret;
 	}
 	
+	/**
+	* This method defines the scoring of each substring based on its
+	* Edit Distance and LCS value with a query string.
+	* 
+	* @param edit The computed Edit Distance of the substring.
+	* @param lcs The computed LCS value of the substring.
+	* @return The score that will be assigned to the substring.
+	*/
 	public static double score(int edit, int lcs){
         double ret = (alpha*lcs)/(double)edit;
         return ret;

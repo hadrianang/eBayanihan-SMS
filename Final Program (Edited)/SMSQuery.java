@@ -4,6 +4,15 @@ import java.util.regex.*;
 import java.net.*;
 import java.io.*;
 
+/**
+* The <tt>SMSQuery</tt> class is responsible for the database access. It initializes two 
+* threads. The first thread queries the database for the SMS messages and stores them in
+* a queue every 15 secs. The second thread calls the <tt>wordBreak</tt> method on the 
+* messages to correct them and then sends them to the server via HTTP POST. Depending on
+* the reply of the server, it updates the row of the message as either "processed-correct"
+* or "processed-incorrect". These two threads run indefinitely until the processes are
+* terminated.
+*/
 public class SMSQuery {
 
 	final static int THRESHOLD = 3;
@@ -22,6 +31,9 @@ public class SMSQuery {
 	static Formatter form;
 	static ArrayDeque<Integer> messageQueue;
 
+	/**
+	* The main method instantiates the QueryThread and acts as the ParserThread.
+	*/
 	public static void main(String[] args)throws Exception {
 		try {
 			Class.forName(JDBC_DRIVER);
@@ -59,32 +71,12 @@ public class SMSQuery {
 		}
 	}
 	
-	// public static String getMessage(String query) throws Exception
-	// {
-	// 	StringBuilder sb = new StringBuilder();
-	// 	URLDecoder decoder = new URLDecoder();
-	// 	String g = query;
-	// 	int start = g.indexOf("&message=") + 9;
-	// 	int end = g.indexOf("&shortcode=");
-	// 	String result = g.substring(start,end);
-	// 	String result2 = decoder.decode(result,"UTF-8");
-	// 	sb.append(result2+"\n");
-	// 	return sb.toString();
-	// }
-	
-	// public static String getMobile(String query) throws Exception
-	// {
-	// 	StringBuilder sb = new StringBuilder();
-	// 	URLDecoder decoder = new URLDecoder();
-	// 	String g = query; 
-	// 	int start = g.indexOf("&mobile_number=") + 15;
-	// 	int end = g.indexOf("&message=");
-	// 	String result = g.substring(start,end);
-	// 	String result2 = decoder.decode(result,"UTF-8");
-	// 	sb.append(result2+"\n");
-	// 	return sb.toString();
-	// }
-	
+	/**
+	* 
+	* 
+	* @param id 
+	* @return Returns true if the server accepted the "corrected" string; false if otherwise.
+	*/
 	public static boolean httpPost(int id) throws Exception{
 		URL url = new URL("http://staging.ebayanihan.ateneo.edu/smsreport");
 		ResultSet rs = stmt1.executeQuery("SELECT * FROM raw_sms_messages WHERE id = " + id +";");
