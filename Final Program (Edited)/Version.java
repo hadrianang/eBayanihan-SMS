@@ -7,6 +7,12 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.net.URLDecoder;
 import java.util.*;
+
+/**
+* The <tt>Version</tt> class is used for debugging purposes only and is not really
+* part of the system. It automatically queries from the database and prints
+* the values of each row.
+*/
 public class Version {
 	final static int THRESHOLD = 3; 
     public static void main(String[] args)throws Exception {

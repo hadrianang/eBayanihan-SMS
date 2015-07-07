@@ -1,6 +1,9 @@
 import java.util.*;
 import java.io.*;
-
+/**
+* The <tt>StatChecker</tt> 
+*
+*/
 public class StatChecker
 {
 	public static void main(String[]args) throws Exception

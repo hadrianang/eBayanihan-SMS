@@ -3,7 +3,7 @@ import java.io.*;
 public class WordSegmentation{
 
 	private static TrieReader reader;
-	private static TrieAlt trie;
+	private static Trie trie;
 	private static String EMPTY = "";
     private static String SPACE = " ";
     private static int minLength, maxLength;

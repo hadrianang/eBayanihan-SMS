@@ -1,10 +1,23 @@
 import java.util.*; 
 import java.io.*; 
 
+/**
+* The <tt>TrieReader</tt>'s <tt>readTrie</tt> method is called upon 
+* initializing the system. It rebuilds the {@link Trie} according 
+* to the output of the {@link TrieBuilder} class.
+*/
 public class TrieReader
 {
-	
-	public TrieAlt readTrie(String fileName) throws Exception
+	/**
+	* Method to "rebuild" the Trie from a file that is the output of the 
+	* TrieBuilder.
+	*
+	*@param fileName The name of the output file of the TrieBuilder program
+	* to serve as input for the TrieReader.
+	*@return Trie object that contains the Trie built according to the input
+	* file.
+	*/
+	public Trie readTrie(String fileName) throws IOException
 	{
 		BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(fileName), "UTF8"));
 		int size = Integer.parseInt(br.readLine()); 
@@ -30,6 +43,6 @@ public class TrieReader
 			
 			if(d.getName() == '$') s.setWordStatus(true); 
 		}
-		return new TrieAlt(graph); 
+		return new Trie(graph); 
 	}
 }

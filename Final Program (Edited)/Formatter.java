@@ -1,7 +1,19 @@
 import java.util.*;
 
+/**
+* The <tt>Formatter</tt> class is used to "standardize" the format of the
+* tokens that are the result of the <tt>wordBreak</tt> method of the 
+* {@link WordSegmentation} class.
+*/
 public class Formatter
 {
+	/**
+	* This method converts an array to a String that should be in the 
+	* correct SMS format.
+	*
+	* @param arr The array of corrected String tokens. 
+	* @return The standardized String output of the tokens supplied.
+	*/
 	public String format(String[] arr)
 	{
 		HashSet<String> space = new HashSet<String>();
