@@ -72,9 +72,11 @@ public class SMSQuery {
 	}
 	
 	/**
+	* This method calls the wordBreak method of the WordSegmentation class on the SMS message
+	* referenced by its ID in the database. After the SMS is corrected, an HTTP POST request
+	* is sent to the server. The method returns if the corrected message is OK or not.
 	* 
-	* 
-	* @param id 
+	* @param id The row ID of the SMS message from the sms table in the database.
 	* @return Returns true if the server accepted the "corrected" string; false if otherwise.
 	*/
 	public static boolean httpPost(int id) throws Exception{
@@ -170,6 +172,12 @@ public class SMSQuery {
 	}
 
 	//debug function
+	/**
+	* This is a method used for debugging the intermediate steps in the HTTP POST.
+	* It prints the contents of the map.
+	* 
+	* @param mp The map whose contents will be printed.
+	*/
 	public static void printMap(Map mp) {
 	    Iterator it = mp.entrySet().iterator();
 	    while (it.hasNext()) {
@@ -178,6 +186,13 @@ public class SMSQuery {
 	        it.remove(); // avoids a ConcurrentModificationException
 	    }
 	}
+
+	/**
+	* This method was implemented to easil parse JSON strings into their field-value mappings.
+	* 
+	* @param sb The JSON string in a StringBuilder object.
+	* @return Returns a HashMap containing the field-value mappings in the JSON text.
+	*/
 	static HashMap<String, String> parseJson(StringBuilder sb)
 	{
 		HashMap<String, String> ret = new HashMap<String, String>();
@@ -202,11 +217,13 @@ public class SMSQuery {
 		}
 		return ret; 
 	}
-	
+	/**
+	* The thread implementation to query SMS messages from the database.
+	*/
 	static class QueryThread implements Runnable{
 		Connection conn;
 		Statement stmt;
-		
+
 		public void run(){
 			try{
 				conn = DriverManager.getConnection(db_name,user,pass);
